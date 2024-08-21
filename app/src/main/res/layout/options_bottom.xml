@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Material3.BottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+
+
+<RelativeLayout
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+ >
+
+
+
+        <ImageView
+            app:srcCompat="@drawable/baseline_content_copy_36"
+            android:id="@+id/imageView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_toEndOf="@+id/imageView"
+            android:id="@+id/textView"
+
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Copy"
+
+            android:textSize="16sp" />
+
+
+
+        <ImageView
+            app:srcCompat="@drawable/ic_baseline_bookmark_add_36"
+            android:layout_below="@+id/imageView"
+            android:id="@+id/imageView2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_marginTop="35dp"
+
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_below="@+id/imageView"
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="BookMarks"
+
+            android:textSize="14sp"
+            />
+
+
+
+
+
+        <ImageView
+            android:layout_below="@+id/imageView2"
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+
+            app:srcCompat="@drawable/xldic_share" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+
+            android:id="@+id/textView4"
+            android:layout_below="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Share"
+
+            android:textSize="16sp" />
+        <com.google.android.material.button.MaterialButton
+
+            app:cardBackgroundColor="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/imageView3"
+            android:backgroundTint="@color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg_white_rounded"
+          >
+
+
+        </com.google.android.material.button.MaterialButton>
+
+
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

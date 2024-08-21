@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.QuranGrammarAct">
+    <item
+        android:id="@+id/action_settings"
+   
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search"
+        android:contentDescription="@string/content_description_one"
+        android:icon="@drawable/shr_search"
+        android:title="@string/action_search"
+
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+
+
+    <item
+        android:id="@+id/jumpto"
+        android:contentDescription="@string/jumpto"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"
+        android:title="Back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/settings"
+        android:contentDescription="@string/settings"
+        android:icon="@drawable/ic_action_setting"
+        android:title="Setting"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mushafview"
+        android:icon="@drawable/baseline_menu_book_36"
+        android:title="@string/action_settings"
+        android:contentDescription="@string/mushafview"
+        app:showAsAction="always" />
+<!--    <item
+        android:id="@+id/colorizedmushaf"
+        android:icon="@drawable/ic_baseline_color_lens_24"
+        android:title="@string/action_settings"
+        android:contentDescription="@string/mushafview"
+        app:showAsAction="always" />-->
+    <!--item
+        android:id="@+id/action_night_mode"
+        android:title="@string/action_night_mode"
+        android:checkable="true"
+        android:checked="false"
+        app:showAsAction="never" /-->
+</menu>

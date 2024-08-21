@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="cat_img">
+
+        <item>@drawable/ic_gratitude</item>sleep"
+        <item>@drawable/ic_morning_evening</item>70163"
+        <item>@drawable/ic_family</item>70163"
+        <item>@drawable/ic_social_manners</item>70163"
+        <item>@drawable/ic_fasting</item>70163"
+        <item>@drawable/ic_hajj</item>70168"
+        <item>@drawable/ic_purification</item>70168"
+        <item>@drawable/ic_prayer</item>7016a"
+        <item>@drawable/ic_food_drink</item>7016a"
+        <item>@drawable/ic_possession_rizq</item>7016a"
+
+        <item>@drawable/ic_travel</item>70162"
+        <item>@drawable/ic_nature</item>70162"
+
+        <item>@drawable/ic_gratitude</item>70162"
+        <item>@drawable/ic_illness</item>70160"
+        <item>@drawable/ic_refuge</item>70160"
+        <item>@drawable/ic_quranic</item>70169"
+        <item>@drawable/ic_ruqyah</item>70160"
+
+        <item>@drawable/ic_clothes</item>70166"
+
+
+    </integer-array>
+
+
+    <string-array name="enverbheadings">
+        <item>Pronouns</item>
+        <item>Past Active</item>
+        <item>Present Active</item>
+        <item>Past Passive </item>
+        <item>Present Passive</item>
+        <item>Command</item>
+        <item>"Negative Command" </item>
+
+    </string-array>
+
+
+    <string-array name="arismfaelmafoolheadings">
+
+
+        <item>" الاسم الفاعل(مُذَّكَر)</item>
+        <item>" الاسم الفاعل(مُئَنَّس)</item>
+        <item>"الاسم المفعول(مُذَّكَر)</item>
+        <item>"الاسم المفعول(مُئَنَّس)</item>
+
+
+    </string-array>
+
+
+    <string-array name="enismfaelmafoolheadings">
+
+        <item>Act.Particple.-M</item>
+        <item>Act.Particple-F</item>
+        <item>Pass.Particple-M </item>
+        <item>Pass.Particple-F</item>
+
+    </string-array>
+
+
+    <string-array name="arverbheadings">
+        <item>الْضَّمَائِر </item>
+        <item>ماض مَعْرُوف</item>
+        <item> مُضارِعٌٍ مَعْرُوف</item>
+        <item>ماض مجحول </item>
+        <item>مُضارع مجحول</item>
+        <item>الامر</item>
+        <item> نَهْي الامر</item>
+    </string-array>
+
+
+    <string-array name="ennumbers">
+
+
+        <item>Singular</item>
+        <item>Dual</item>
+        <item>Plural</item>
+
+    </string-array>
+    <string-array name="arnumbers">
+
+
+        <item>مفرد</item>
+        <item>مثنى</item>
+        <item>جمع</item>
+
+    </string-array>
+
+    <integer-array name="names_imgs">
+
+
+        <item>@drawable/name_1</item>
+        <item>@drawable/name_2</item>
+
+        <item>@drawable/name_3</item>
+
+        <item>@drawable/name_4</item>
+        <item>@drawable/name_5</item>
+        <item>@drawable/name_6</item>70172"
+        <item>@drawable/name_7</item>7017d"
+        <item>@drawable/name_8</item>70188"
+        <item>@drawable/name_9</item>70193"
+        <item>@drawable/name_10</item>
+        <item>@drawable/name_11</item>
+        8"
+        <item>@drawable/name_12</item>
+        e"
+        <item>@drawable/name_13</item>
+        f"
+        <item>@drawable/name_14</item>
+        0"
+        <item>@drawable/name_15</item>
+        1"
+        <item>@drawable/name_16</item>
+        2"
+        <item>@drawable/name_17</item>
+
+        <item>@drawable/name_18</item>
+        <item>@drawable/name_19</item>
+
+
+        <item>@drawable/name_20</item>
+        7"
+        <item>@drawable/name_21</item>
+        8"
+        <item>@drawable/name_22</item>
+        9"
+        <item>@drawable/name_23</item>
+        a"
+        <item>@drawable/name_24</item>
+        b"
+        <item>@drawable/name_25</item>
+        c"
+        <item>@drawable/name_26</item>
+        d"
+        <item>@drawable/name_27</item>
+        e"
+        <item>@drawable/name_28</item>
+        f"
+        <item>@drawable/name_29</item>
+        0"
+
+        <item>@drawable/name_30</item>
+        2"
+        <item>@drawable/name_31</item>
+        3"
+        <item>@drawable/name_32</item>
+        4"
+        <item>@drawable/name_33</item>
+        5"
+        <item>@drawable/name_34</item>
+        6"
+        <item>@drawable/name_35</item>
+        7"
+        <item>@drawable/name_36</item>
+        8"
+        <item>@drawable/name_37</item>
+        9"
+        <item>@drawable/name_38</item>
+        a"
+        <item>@drawable/name_39</item>
+
+
+        <item>@drawable/name_40</item>
+
+        <item>@drawable/name_41</item>
+
+        <item>@drawable/name_42</item>
+
+        <item>@drawable/name_43</item>70160"
+        <item>@drawable/name_44</item>70161"
+        <item>@drawable/name_45</item>70162"
+        <item>@drawable/name_46</item>70163"
+        <item>@drawable/name_47</item>70164"
+        <item>@drawable/name_48</item>70165"
+        <item>@drawable/name_49</item>70166"
+        <item>@drawable/name_50</item>70168"
+        <item>@drawable/name_51</item>70169"
+        <item>@drawable/name_52</item>7016a"
+        <item>@drawable/name_53</item>7016b"
+        <item>@drawable/name_54</item>7016c"
+        <item>@drawable/name_55</item>7016d"
+        <item>@drawable/name_56</item>7016e"
+        <item>@drawable/name_57</item>7016f"
+        <item>@drawable/name_58</item>70170"
+        <item>@drawable/name_59</item>70171"
+
+        <item>@drawable/name_60</item>70173"
+        <item>@drawable/name_61</item>70174"
+        <item>@drawable/name_62</item>70175"
+        <item>@drawable/name_63</item>70176"
+        <item>@drawable/name_64</item>70177"
+        <item>@drawable/name_65</item>70178"
+        <item>@drawable/name_66</item>70179"
+        <item>@drawable/name_67</item>7017a"
+        <item>@drawable/name_68</item>7017b"
+        <item>@drawable/name_69</item>7017c"
+
+        <item>@drawable/name_70</item>7017e"
+        <item>@drawable/name_71</item>7017f"
+        <item>@drawable/name_72</item>70180"
+        <item>@drawable/name_73</item>70181"
+        <item>@drawable/name_74</item>70182"
+        <item>@drawable/name_75</item>70183"
+        <item>@drawable/name_76</item>70184"
+        <item>@drawable/name_77</item>70185"
+        <item>@drawable/name_78</item>70186"
+        <item>@drawable/name_79</item>70187"
+
+        <item>@drawable/name_80</item>70189"
+        <item>@drawable/name_81</item>7018a"
+        <item>@drawable/name_82</item>7018b"
+        <item>@drawable/name_83</item>7018c"
+        <item>@drawable/name_84</item>7018d"
+        <item>@drawable/name_85</item>7018e"
+        <item>@drawable/name_86</item>7018f"
+        <item>@drawable/name_87</item>70190"
+        <item>@drawable/name_88</item>70191"
+        <item>@drawable/name_89</item>70192"
+
+        <item>@drawable/name_90</item>70194"
+        <item>@drawable/name_91</item>70195"
+        <item>@drawable/name_92</item>70196"
+        <item>@drawable/name_93</item>70197"
+        <item>@drawable/name_94</item>70198"
+        <item>@drawable/name_95</item>70199"
+        <item>@drawable/name_96</item>7019a"
+        <item>@drawable/name_97</item>7019b"
+        <item>@drawable/name_98</item>7019c"
+        <item>@drawable/name_99</item>7019d"
+
+        6"
+        <item>@drawable/sura_109</item>
+        7"
+
+        <item>@drawable/sura_110</item>
+        9"
+        <item>@drawable/sura_111</item>
+        a"
+        <item>@drawable/sura_112</item>
+        b"
+        <item>@drawable/sura_113</item>
+        c"
+        <item>@drawable/sura_114</item>
+        d"
+    </integer-array>
+    <integer-array name="sura_imgs">
+
+
+        <item>@drawable/sura_1</item>
+        <item>@drawable/sura_2</item>
+
+        <item>@drawable/sura_3</item>
+
+        <item>@drawable/sura_4</item>
+        <item>@drawable/sura_5</item>
+        <item>@drawable/sura_6</item>70172"
+        <item>@drawable/sura_7</item>7017d"
+        <item>@drawable/sura_8</item>70188"
+        <item>@drawable/sura_9</item>70193"
+        <item>@drawable/sura_10</item>
+        <item>@drawable/sura_11</item>
+        8"
+        <item>@drawable/sura_12</item>
+        e"
+        <item>@drawable/sura_13</item>
+        f"
+        <item>@drawable/sura_14</item>
+        0"
+        <item>@drawable/sura_15</item>
+        1"
+        <item>@drawable/sura_16</item>
+        2"
+        <item>@drawable/sura_17</item>
+
+        <item>@drawable/sura_18</item>
+        <item>@drawable/sura_19</item>
+
+
+        <item>@drawable/sura_20</item>
+        7"
+        <item>@drawable/sura_21</item>
+        8"
+        <item>@drawable/sura_22</item>
+        9"
+        <item>@drawable/sura_23</item>
+        a"
+        <item>@drawable/sura_24</item>
+        b"
+        <item>@drawable/sura_25</item>
+        c"
+        <item>@drawable/sura_26</item>
+        d"
+        <item>@drawable/sura_27</item>
+        e"
+        <item>@drawable/sura_28</item>
+        f"
+        <item>@drawable/sura_29</item>
+        0"
+
+        <item>@drawable/sura_30</item>
+        2"
+        <item>@drawable/sura_31</item>
+        3"
+        <item>@drawable/sura_32</item>
+        4"
+        <item>@drawable/sura_33</item>
+        5"
+        <item>@drawable/sura_34</item>
+        6"
+        <item>@drawable/sura_35</item>
+        7"
+        <item>@drawable/sura_36</item>
+        8"
+        <item>@drawable/sura_37</item>
+        9"
+        <item>@drawable/sura_38</item>
+        a"
+        <item>@drawable/sura_39</item>
+
+
+        <item>@drawable/sura_40</item>
+
+        <item>@drawable/sura_41</item>
+
+        <item>@drawable/sura_42</item>
+
+        <item>@drawable/sura_43</item>70160"
+        <item>@drawable/sura_44</item>70161"
+        <item>@drawable/sura_45</item>70162"
+        <item>@drawable/sura_46</item>70163"
+        <item>@drawable/sura_47</item>70164"
+        <item>@drawable/sura_48</item>70165"
+        <item>@drawable/sura_49</item>70166"
+        <item>@drawable/sura_50</item>70168"
+        <item>@drawable/sura_51</item>70169"
+        <item>@drawable/sura_52</item>7016a"
+        <item>@drawable/sura_53</item>7016b"
+        <item>@drawable/sura_54</item>7016c"
+        <item>@drawable/sura_55</item>7016d"
+        <item>@drawable/sura_56</item>7016e"
+        <item>@drawable/sura_57</item>7016f"
+        <item>@drawable/sura_58</item>70170"
+        <item>@drawable/sura_59</item>70171"
+
+        <item>@drawable/sura_60</item>70173"
+        <item>@drawable/sura_61</item>70174"
+        <item>@drawable/sura_62</item>70175"
+        <item>@drawable/sura_63</item>70176"
+        <item>@drawable/sura_64</item>70177"
+        <item>@drawable/sura_65</item>70178"
+        <item>@drawable/sura_66</item>70179"
+        <item>@drawable/sura_67</item>7017a"
+        <item>@drawable/sura_68</item>7017b"
+        <item>@drawable/sura_69</item>7017c"
+
+        <item>@drawable/sura_70</item>7017e"
+        <item>@drawable/sura_71</item>7017f"
+        <item>@drawable/sura_72</item>70180"
+        <item>@drawable/sura_73</item>70181"
+        <item>@drawable/sura_74</item>70182"
+        <item>@drawable/sura_75</item>70183"
+        <item>@drawable/sura_76</item>70184"
+        <item>@drawable/sura_77</item>70185"
+        <item>@drawable/sura_78</item>70186"
+        <item>@drawable/sura_79</item>70187"
+
+        <item>@drawable/sura_80</item>70189"
+        <item>@drawable/sura_81</item>7018a"
+        <item>@drawable/sura_82</item>7018b"
+        <item>@drawable/sura_83</item>7018c"
+        <item>@drawable/sura_84</item>7018d"
+        <item>@drawable/sura_85</item>7018e"
+        <item>@drawable/sura_86</item>7018f"
+        <item>@drawable/sura_87</item>70190"
+        <item>@drawable/sura_88</item>70191"
+        <item>@drawable/sura_89</item>70192"
+
+        <item>@drawable/sura_90</item>70194"
+        <item>@drawable/sura_91</item>70195"
+        <item>@drawable/sura_92</item>70196"
+        <item>@drawable/sura_93</item>70197"
+        <item>@drawable/sura_94</item>70198"
+        <item>@drawable/sura_95</item>70199"
+        <item>@drawable/sura_96</item>7019a"
+        <item>@drawable/sura_97</item>7019b"
+        <item>@drawable/sura_98</item>7019c"
+        <item>@drawable/sura_99</item>7019d"
+
+        <item>@drawable/sura_100</item>7012e"
+        <item>@drawable/sura_101</item>7012f"
+        <item>@drawable/sura_102</item>
+        0"
+        <item>@drawable/sura_103</item>
+        1"
+        <item>@drawable/sura_104</item>
+        2"
+        <item>@drawable/sura_105</item>
+        3"
+        <item>@drawable/sura_106</item>
+        4"
+        <item>@drawable/sura_107</item>
+        5"
+        <item>@drawable/sura_108</item>
+        6"
+        <item>@drawable/sura_109</item>
+        7"
+
+        <item>@drawable/sura_110</item>
+        9"
+        <item>@drawable/sura_111</item>
+        a"
+        <item>@drawable/sura_112</item>
+        b"
+        <item>@drawable/sura_113</item>
+        c"
+        <item>@drawable/sura_114</item>
+        d"
+    </integer-array>
+
+<string-array name="qarinames">
+    <item>Abd Al-Basit</item>
+    <item>Abd Al-Basit Mujawwad</item>
+    <item>Abd Al-Rahman Al-Sudais</item>
+    <item>Abdullah Basfar</item>
+    <item>Abu Bakr Al-Shatri</item>
+    <item>Ali Abd Al-Rahman Al-Huthaify</item>
+    <item>Hani Al-Rifai</item>
+    <item>Ibrahim Walk (English)</item>
+    <item>Maher Al-Muaiqly</item>
+    <item>Mahmood Khaleel Al-Husary (Mujawwad)</item>
+     <item>Mishary Rashed Al-Afasy</item>
+    <item>Mohamed Ayyoub</item>
+    <item>Mohamed Jibreel</item>
+    <item>Mohammad Al-Tablawi</item>
+    <item>Mohammed Al-Minshawi (Mujawwad)</item>
+    <item>Saad Al Ghamadi</item>
+    <item>Saood Al-Shuraym</item>
+    <item>Yasser Al-Dussary</item>
+
+
+</string-array>
+
+    <string-array name="qarientryarry">
+        <item>Abd Al-Basit</item>
+        <item>Abd Al-Basit Mujawwad</item>
+        <item>Abd Al-Rahman Al-Sudais</item>
+        <item>Abdullah Basfar</item>
+        <item>Abu Bakr Al-Shatri</item>
+        <item>Ali Abd Al-Rahman Al-Huthaify</item>
+        <item>Hani Al-Rifai</item>
+        <item>Ibrahim Walk (English)</item>
+        <item>Maher Al-Muaiqly</item>
+        <item>Mahmood Khaleel Al-Husary (Mujawwad)</item>
+        <item>Mishary Rashed Al-Afasy</item>
+        <item>Mohamed Ayyoub</item>
+        <item>Mohamed Jibreel</item>
+        <item>Mohammad Al-Tablawi</item>
+        <item>Mohammed Al-Minshawi (Mujawwad)</item>
+        <item>Saad Al Ghamadi</item>
+        <item>Saood Al-Shuraym</item>
+        <item>Yasser Al-Dussary</item>
+    </string-array>
+
+    <string-array name="arabicFontListArray">
+        <item>Quranic</item>
+
+        <item>me_quran</item>
+
+        <item>Qalam</item>
+        <item>Noto Naskh Arabic Huda</item>
+    </string-array>
+
+    <string-array name="arabicFontEntryArray">
+        <item>quranicfontregular.ttf</item>
+        <item>DejaVuSans.ttf</item>
+        <item>me_quran.ttf</item>
+        <item>qalam.ttf</item>
+        <item>NotoNaskhArabic-VariableFont_wght.ttf</item>
+
+    </string-array>
+
+
+    <string-array name="com_google_android_gms_fonts_certs" />
+    <string-array name="surahdetails">
+        <item>	1	The Opening	الْفَاتِحَة	</item>
+        <item>	2	The Cow	الْبَقَرَة	</item>
+        <item>	3	The Family of Imraan	آل عِمۡرٰن	</item>
+        <item>	4	The Women	النِّسَآء	</item>
+        <item>	5	The Table	الْمَآئِدَة	</item>
+        <item>	6	The Cattle	الْأَنْعَام	</item>
+        <item>	7	The Heights	الْأَعْرَاف	</item>
+        <item>	8	The Spoils of War	الْأَنْفَال	</item>
+        <item>	9	The Repentance	التَّوْبَة	</item>
+        <item>	10	Jonas	يُوْنـُس	</item>
+        <item>	11	Hud	هُوْد	</item>
+        <item>	12	Joseph	يُوْسُف	</item>
+        <item>	13	The Thunder	الرَّعْد	</item>
+        <item>	14	Abraham	اِبۡرٰهِيۡم	</item>
+        <item>	15	The Rock	الْحِجْر	</item>
+        <item>	16	The Bee	النَّحْل	</item>
+        <item>	17	The Night Journey	الْإِسْرَاء / بَنِيْ إِسْرَآءِيْل	</item>
+        <item>	18	The Cave	الْكَهْف	</item>
+        <item>	19	Mary	مَرْيَم	</item>
+        <item>	20	Taa-Haa	طهٰ	</item>
+        <item>	21	The Prophets	الْأَنْبِيَآء	</item>
+        <item>	22	The Pilgrimage	الْحَجّ	</item>
+        <item>	23	The Believers	الْمُؤْمِنُوْن	</item>
+        <item>	24	The Light	النُّوْر	</item>
+        <item>	25	The Criterion	الْفُرْقَان	</item>
+        <item>	26	The Poets	الشُّعَرَآء	</item>
+        <item>	27	The Ant	النَّمْل	</item>
+        <item>	28	The Stories	الْقَصَص	</item>
+        <item>	29	The Spider	الْعَنْکَبُوْت	</item>
+        <item>	30	The Romans	الرُّوْم	</item>
+        <item>	31	Luqman	لُقۡمٰن	</item>
+        <item>	32	The Prostration	السَّجْدَة	</item>
+        <item>	33	The Clans	الْأَحْزَاب	</item>
+        <item>	34	Sheba	سَبـَا	</item>
+        <item>	35	The Originator	فَاطِر	</item>
+        <item>	36	Yaseen	يٰس	</item>
+        <item>	37	Those drawn up in Ranks	الصّٰٓفّٰت	</item>
+        <item>	38	The letter Saad	ص	</item>
+        <item>	39	The Groups	الزُّمَر	</item>
+        <item>	40	The Forgiver	غَافِر / الْمُؤْمِن	</item>
+        <item>	41	Explained in detail	فُصِّلَت / حٰم السَّجْدَة	</item>
+        <item>	42	Consultation	الشُّوْرٰی	</item>
+        <item>	43	Ornaments of gold	الزُّخْرُف	</item>
+        <item>	44	The Smoke	الدُّخَان	</item>
+        <item>	45	Crouching	الْجَاثِيَة	</item>
+        <item>	46	The Dunes	الْأَحْقَاف	</item>
+        <item>	47	Muhammad	مُحَمَّد	</item>
+        <item>	48	The Victory	الْفَتْح	</item>
+        <item>	49	The Inner Apartments	الۡحُجُرٰت	</item>
+        <item>	50	The letter Qaaf	ق	</item>
+        <item>	51	The Winnowing Winds	الذّٰرِيٰت	</item>
+        <item>	52	The Mount	الطُّوْر	</item>
+        <item>	53	The Star	النَّجْم	</item>
+        <item>	54	The Moon	الْقَمَر	</item>
+        <item>	55	The Beneficent	الرَّحْمٰن	</item>
+        <item>	56	The Inevitable	الْوَاقِعَة	</item>
+        <item>	57	The Iron	الْحَدِيْد	</item>
+        <item>	58	The Pleading Woman	الْمُجَادَلَة	</item>
+        <item>	59	The Exile	الْحَشْر	</item>
+        <item>	60	She that is to be examined	الْمُمْتَحِنَة	</item>
+        <item>	61	The Ranks	الصَّفّ	</item>
+        <item>	62	Friday	الْجُمُعَة	</item>
+        <item>	63	The Hypocrites	الۡمُنٰفِقُوۡن	</item>
+        <item>	64	Mutual Disillusion	التَّغَابُن	</item>
+        <item>	65	Divorce	الطَّلاَق	</item>
+        <item>	66	The Prohibition	التَّحْرِيْم	</item>
+        <item>	67	The Sovereignty	الْمُلْک	</item>
+        <item>	68	The Pen	الْقَلَم	</item>
+        <item>	69	The Reality	الْحَآقَّة	</item>
+        <item>	70	The Ascending Stairways	الْمَعَارِج	</item>
+        <item>	71	Noah	نُوْح	</item>
+        <item>	72	The Jinn	الْجِنّ	</item>
+        <item>	73	The Enshrouded One	الْمُزَّمِّل	</item>
+        <item>	74	The Cloaked One	الْمُدَّثِّر	</item>
+        <item>	75	The Resurrection	الۡقِيٰمَة	</item>
+        <item>	76	Man	الْإِنْسَان / الدَّهْر	</item>
+        <item>	77	The Emissaries	الۡمُرۡسَلٰت	</item>
+        <item>	78	The Announcement	النَّبَا	</item>
+        <item>	79	Those who drag forth	النّٰزِعٰت	</item>
+        <item>	80	He frowned	عَبَسَ	</item>
+        <item>	81	The Overthrowing	التَّکْوِيْر	</item>
+        <item>	82	The Cleaving	الْإِنْفِطَار	</item>
+        <item>	83	Defrauding	الْمُطَفِّفِيْن	</item>
+        <item>	84	The Splitting Open	الْإِنْشِقَاق	</item>
+        <item>	85	The Constellations	الْبُرُوْج	</item>
+        <item>	86	The Morning Star	الطَّارِق	</item>
+        <item>	87	The Most High	الْأَعْلیٰ	</item>
+        <item>	88	The Overwhelming	الْغَاشِيَة	</item>
+        <item>	89	The Dawn	الْفَجْر	</item>
+        <item>	90	The City	الْبَلَد	</item>
+        <item>	91	The Sun	الشَّمْس	</item>
+        <item>	92	The Night	اللَّيْل	</item>
+        <item>	93	The Morning Hours	الضُّحٰی	</item>
+        <item>	94	The Consolation	  الْإِنْشِرَاح	</item>
+        <item>	95	The Fig	التِّيْن	</item>
+        <item>	96	The Clot	الْعَلَق	</item>
+        <item>	97	The Power, Fate	الْقَدْر	</item>
+        <item>	98	The Evidence	الْبَـيِّـنَة	</item>
+        <item>	99	The Earthquake	 الزِّلْزَال	</item>
+        <item>	100	The Chargers	الۡعٰدِيٰت	</item>
+        <item>	101	The Calamity	الْقَارِعَة	</item>
+        <item>	102	Competition	التَّکَاثُر	</item>
+        <item>	103	The Declining Day, Epoch	الْعَصْر	</item>
+        <item>	104	The Traducer	الْهُمَزَة	</item>
+        <item>	105	The Elephant	الْفِيل	</item>
+        <item>	106	Quraysh	قُرَيْش	</item>
+        <item>	107	Almsgiving	الْمَاعُوْن	</item>
+        <item>	108	Abundance	الْکَوْثَر	</item>
+        <item>	109	The Disbelievers	الْکَافِرُوْن	</item>
+        <item>	110	Divine Support	النَّصْر	</item>
+        <item>	111	The Palm Fibre / اللَّهَب	</item>
+        <item>	112	Sincerity	الْإِخْلاَص	</item>
+        <item>	113	The Dawn	الْفَلَق	</item>
+        <item>	114	Mankind	النَّاس	</item>
+
+
+
+    </string-array>
+    <string-array name="suraharabic">
+
+
+        <item>"الْفَاتِحَة"</item>
+        <item>"الْبَقَرَة"</item>
+        <item>"آل عِمۡرٰن"</item>
+        <item>"النِّسَآء"</item>
+        <item>"الْمَآئِدَة"</item>
+        <item>"الْأَنْعَام"</item>
+        <item>"الْأَعْرَاف"</item>
+        <item>"الْأَنْفَال"</item>
+        <item>"التَّوْبَة"</item>
+        <item>"يُوْنـُس"</item>
+        <item>"هُوْد"</item>
+        <item>"يُوْسُف"</item>
+        <item>"الرَّعْد"</item>
+        <item>"اِبۡرٰهِيۡم"</item>
+        <item>"الْحِجْر"</item>
+        <item>النَّحْل"</item>
+        <item>"َنِيْ إِسْرَآءِيْل"</item>
+        <item>"لْكَهْف"</item>
+        <item>"مَرْيَم"</item>
+        <item>"طهٰ"</item>
+        <item>"الْأَنْبِيَآء"</item>
+        <item>"الْحَجّ"</item>
+        <item>"الْمُؤْمِنُوْن"</item>
+        <item>"النُّوْر "</item>
+        <item>"الْفُرْقَان"</item>
+        <item>"الشُّعَرَآء"</item>
+        <item>"النَّمْل"</item>
+        <item>"الْقَصَص"</item>
+        <item>"الْعَنْکَبُوْت"</item>
+        <item>"الرُّوْم"</item>
+        <item>"لُقۡمٰن"</item>
+        <item>"السَّجْدَة"</item>
+        <item>"الْأَحْزَاب"</item>
+        <item>"سَبـَا"</item>
+        <item>"فَاطِر"</item>
+        <item>"يٰس"</item>
+        <item>"الصّٰٓفّٰت"</item>
+        <item>"ص"</item>
+        <item>"الزُّمَر"</item>
+        <item>"غَافِر / لْمُؤْمِن"</item>
+        <item>"فُصِّلَت </item>
+        <item>"الشُّوْرٰی"</item>
+        <item>"الزُّخْرُف"</item>
+        <item>"الدُّخَان"</item>
+        <item>"الْجَاثِيَة"</item>
+        <item>"الْأَحْقَاف"</item>
+        <item>"مُحَمَّد"</item>
+        <item>"الْفَتْح"</item>
+        <item>"الۡحُجُرٰت"</item>
+        <item>"ق"</item>
+        <item>"الذّٰرِيٰت"</item>
+        <item>"الطُّوْر"</item>
+        <item>"النَّجْم"</item>
+        <item>"الْقَمَر"</item>
+        <item>"الرَّحْمٰن"</item>
+        <item>"الْوَاقِعَة"</item>
+        <item>"الْحَدِيْد"</item>
+        <item>"الْمُجَادَلَة"</item>
+        <item>"الْحَشْر"</item>
+        <item>"الْمُمْتَحِنَة"</item>
+        <item>"الصَّفّ"</item>
+        <item>"الْجُمُعَة"</item>
+        <item>"الۡمُنٰفِقُوۡن"</item>
+        <item>"التَّغَابُن"</item>
+        <item>"الطَّلاَق"</item>
+        <item>"التَّحْرِيْم"</item>
+        <item>"الْمُلْک"</item>
+        <item>"الْقَلَم"</item>
+        <item>"الْحَآقَّة"</item>
+        <item>"الْمَعَارِج"</item>
+        <item>"نُوْح"</item>
+        <item>"الْجِنّ"</item>
+        <item>"الْمُزَّمِّل"</item>
+        <item>"الْمُدَّثِّر"</item>
+        <item>"الۡقِيٰمَة"</item>
+        <item>"َْالدَّهْر"</item>
+        <item>"الۡمُرۡسَلٰت"</item>
+        <item>"النَّبَا"</item>
+        <item>"النّٰزِعٰت"</item>
+        <item>"عَبَسَ"</item>
+        <item>"التَّکْوِيْر"</item>
+        <item>"الْإِنْفِطَار"</item>
+        <item>"الْمُطَفِّفِيْن"</item>
+        <item>"الْإِنْشِقَاق"</item>
+        <item>"الْبُرُوْج"</item>
+        <item>"الطَّارِق"</item>
+        <item>"الْأَعْلیٰ"</item>
+        <item>"الْغَاشِيَة"</item>
+        <item>"الْفَجْر"</item>
+        <item>"الْبَلَد"</item>
+        <item>"الشَّمْس"</item>
+        <item>"اللَّيْل"</item>
+        <item>"الضُّحٰی"</item>
+        <item>"الشَّرْح</item>
+        <item>"التِّيْن"</item>
+        <item>"الْعَلَق"</item>
+        <item>"الْقَدْر"</item>
+        <item>"الْبَـيِّـنَة"</item>
+        <item>"الزِّلْزَال"</item>
+        <item>"الۡعٰدِيٰت"</item>
+        <item>"الْقَارِعَة"</item>
+        <item>"التَّکَاثُر"</item>
+        <item>"الْعَصْر"</item>
+        <item>"الْهُمَزَة"</item>
+        <item>"الْفِيل"</item>
+        <item>"قُرَيْش"</item>
+        <item>"الْمَاعُوْن"</item>
+        <item>"الْکَوْثَر"</item>
+        <item>"الْکَافِرُوْن"</item>
+        <item>"النَّصْر"</item>
+        <item>"للَّهَب"</item>
+        <item>"الْإِخْلاَص"</item>
+        <item>"الْفَلَق"</item>
+        <item>"النَّاس"</item>
+
+    </string-array>
+    <string-array name="versescounts">
+
+        <item>7</item>
+        <item>286</item>
+        <item>200</item>
+        <item>176</item>
+        <item>120</item>
+        <item>165</item>
+        <item>206</item>
+        <item>75</item>
+        <item>129</item>
+        <item>109</item>
+        <item>123</item>
+        <item>111</item>
+        <item>43</item>
+        <item>52</item>
+        <item>99</item>
+        <item>128</item>
+        <item>111</item>
+        <item>110</item>
+        <item>98</item>
+        <item>135</item>
+        <item>112</item>
+        <item>78</item>
+        <item>118</item>
+        <item>64</item>
+        <item>77</item>
+        <item>227</item>
+        <item>93</item>
+        <item>88</item>
+        <item>69</item>
+        <item>60</item>
+        <item>34</item>
+        <item>30</item>
+        <item>73</item>
+        <item>54</item>
+        <item>45</item>
+        <item>83</item>
+        <item>182</item>
+        <item>88</item>
+        <item>75</item>
+        <item>85</item>
+        <item>54</item>
+        <item>53</item>
+        <item>89</item>
+        <item>59</item>
+        <item>37</item>
+        <item>35</item>
+        <item>38</item>
+        <item>29</item>
+        <item>18</item>
+        <item>45</item>
+        <item>60</item>
+        <item>49</item>
+        <item>62</item>
+        <item>55</item>
+        <item>78</item>
+        <item>96</item>
+        <item>29</item>
+        <item>22</item>
+        <item>24</item>
+        <item>13</item>
+        <item>14</item>
+        <item>11</item>
+        <item>11</item>
+        <item>18</item>
+        <item>12</item>
+        <item>12</item>
+        <item>30</item>
+        <item>52</item>
+        <item>52</item>
+        <item>44</item>
+        <item>28</item>
+        <item>28</item>
+        <item>20</item>
+        <item>56</item>
+        <item>40</item>
+        <item>31</item>
+        <item>50</item>
+        <item>40</item>
+        <item>46</item>
+        <item>42</item>
+        <item>29</item>
+        <item>19</item>
+        <item>36</item>
+        <item>25</item>
+        <item>22</item>
+        <item>17</item>
+        <item>19</item>
+        <item>26</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>21</item>
+        <item>11</item>
+        <item>8</item>
+        <item>8</item>
+        <item>19</item>
+        <item>5</item>
+        <item>8</item>
+        <item>8</item>
+        <item>11</item>
+        <item>11</item>
+        <item>8</item>
+        <item>3</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="quran_readers_name">
+        <item>@string/qari_minshawi_murattal_gapless</item>
+        <item>@string/qari_husary_gapless</item>
+        <item>@string/qari_sudais_gapless</item>
+        <item>@string/qari_qatami_gapless</item>
+        <item>@string/qari_abdulbaset</item>
+        <item>@string/qari_abdulbaset_mujawwad</item>
+        <item>@string/qari_basfar</item>
+        <item>@string/qari_suadis</item>
+        <item>@string/qari_shatri</item>
+        <item>@string/qari_afasy</item>
+        <item>@string/qari_saad_al_ghamdi</item>
+        <item>@string/qari_walk</item>
+        <item>@string/qari_hani_rifai</item>
+        <item>@string/qari_husary_mujawwad</item>
+        <item>@string/qari_hudhayfi</item>
+        <item>@string/qari_muaiqly</item>
+        <item>@string/qari_minshawi_mujawwad</item>
+        <item>@string/qari_tablawy</item>
+        <item>@string/qari_ayyoub</item>
+        <item>@string/qari_jibreel</item>
+        <item>@string/qari_shuraym</item>
+        <item>@string/qari_dussary</item>
+        <item>@string/qari_abdulbaset_gapless</item>
+        <item>@string/qari_abdulbaset_mujawwad_gapless</item>
+        <item>@string/qari_aziz_alili_gapless</item>
+        <item>@string/qari_salah_budair_gapless</item>
+        <item>@string/qari_shuraym_gapless</item>
+        <item>@string/qari_yasser_dussary_gapless</item>
+        <item>@string/qari_mohammad_altablawi_gapless</item>
+        <item>@string/qari_sahl_yaseen_gapless</item>
+        <item>@string/qari_shatri_gapless</item>
+        <item>@string/qari_ahmad_nauina_gapless</item>
+        <item>@string/qari_akram_al_alaqmi</item>
+        <item>@string/qari_ali_hajjaj_alsouasi_gapless</item>
+    </string-array>
+    <string-array name="quran_names">
+        <item>"Select Surah</item>
+        <item>"1:The Opening"</item>
+        <item>2:The Cow</item>
+        <item>3:The Family of Imraan</item>
+        <item>4:The Women</item>
+        <item>5:The Table</item>
+        <item>6:The Cattle</item>
+        <item>7:The Heights</item>
+        <item>8:The Spoils of War</item>
+        <item>9:The Repentance</item>
+        <item>10:Jonas</item>
+        <item>11:Hud</item>
+        <item>12:Joseph</item>
+        <item>13:The Thunder</item>
+        <item>14:Abraham</item>
+        <item>15:The Rock</item>
+        <item>16:The Bee</item>
+        <item>17:The Night Journey</item>
+        <item>18:The Cave</item>
+        <item>19:Mary</item>
+        <item>20:Taa-Haa</item>
+        <item>21:The Prophets</item>
+        <item>22:The Pilgrimage</item>
+        <item>23:The Believers</item>
+        <item>24:The Light</item>
+        <item>25:The Criterion</item>
+        <item>26:The Poets</item>
+        <item>27:The Ant</item>
+        <item>28:The Stories</item>
+        <item>29:The Spider</item>
+        <item>30:The Romans</item>
+        <item>31:Luqman</item>
+        <item>32:The Prostration</item>
+        <item>33:The Clans</item>
+        <item>34:Sheba</item>
+        <item>35:The Originator</item>
+        <item>36:Yaseen</item>
+        <item>37:Those drawn up in Ranks</item>
+        <item>38:The letter Saad</item>
+        <item>39:The Groups</item>
+        <item>40:The Forgiver</item>
+        <item>41:Explained in detail</item>
+        <item>42:Consultation</item>
+        <item>43:Ornaments of gold</item>
+        <item>44:The Smoke</item>
+        <item>45:Crouching</item>
+        <item>46:The Dunes</item>
+        <item>47:Muhammad</item>
+        <item>48:The Victory</item>
+        <item>49:The Inner Apartments</item>
+        <item>50:The letter Qaaf</item>
+        <item>51:The Winnowing Winds</item>
+        <item>52:The Mount</item>
+        <item>53:The Star</item>
+        <item>54:The Moon</item>
+        <item>55:The Beneficent</item>
+        <item>56:The Inevitable</item>
+        <item>57:The Iron</item>
+        <item>58:The Pleading Woman</item>
+        <item>59:The Exile</item>
+        <item>60:She that is to be examined</item>
+        <item>61:The Ranks</item>
+        <item>62:Friday</item>
+        <item>63:The Hypocrites</item>
+        <item>64:Mutual Disillusion</item>
+        <item>65:Divorce</item>
+        <item>66:The Prohibition</item>
+        <item>67:The Sovereignty</item>
+        <item>68:The Pen</item>
+        <item>69:The Reality</item>
+        <item>70:The Ascending Stairways</item>
+        <item>71:Noah</item>
+        <item>72:The Jinn</item>
+        <item>73:The Enshrouded One</item>
+        <item>74:The Cloaked One</item>
+        <item>75:The Resurrection</item>
+        <item>76:Man</item>
+        <item>77:The Emissaries</item>
+        <item>78:The Announcement</item>
+        <item>79:Those who drag forth</item>
+        <item>80:He frowned</item>
+        <item>81:The Overthrowing</item>
+        <item>82:The Cleaving</item>
+        <item>83:Defrauding</item>
+        <item>84:The Splitting Open</item>
+        <item>85:The Constellations</item>
+        <item>86:The Morning Star</item>
+        <item>87:The Most High</item>
+        <item>88:The Overwhelming</item>
+        <item>89:The Dawn</item>
+        <item>90:The City</item>
+        <item>91:The Sun</item>
+        <item>92:The Night</item>
+        <item>93:The Morning Hours</item>
+        <item>94:The Consolation</item>
+        <item>95:The Fig</item>
+        <item>96:The Clot</item>
+        <item>97:The Power, Fate</item>
+        <item>98:The Evidence</item>
+        <item>99:The Earthquake</item>
+        <item>100:The Chargers</item>
+        <item>101:The Calamity</item>
+        <item>102:Competition</item>
+        <item>103:The Declining Day, Epoch</item>
+        <item>104:The Traducer</item>
+        <item>105:The Elephant</item>
+        <item>106:Quraysh</item>
+        <item>107:Almsgiving</item>
+        <item>108:Abundance</item>
+        <item>109:The Disbelievers</item>
+        <item>110:Divine Support</item>
+        <item>111:The Palm Fibre</item>
+        <item>112:Sincerity</item>
+        <item>113:The Dawn</item>
+        <item>114:Mankind</item>
+    </string-array>
+    <integer-array name="sura_imgsspinner">
+
+
+        <item>@drawable/sura_1</item>
+        <item>@drawable/sura_2</item>
+
+        <item>@drawable/sura_3</item>
+
+        <item>@drawable/sura_4</item>
+        <item>@drawable/sura_5</item>
+        <item>@drawable/sura_6</item>70172"
+        <item>@drawable/sura_7</item>7017d"
+        <item>@drawable/sura_8</item>70188"
+        <item>@drawable/sura_9</item>70193"
+        <item>@drawable/sura_10</item>
+        <item>@drawable/sura_11</item>
+        8"
+        <item>@drawable/sura_12</item>
+        e"
+        <item>@drawable/sura_13</item>
+        f"
+        <item>@drawable/sura_14</item>
+        0"
+        <item>@drawable/sura_15</item>
+        1"
+        <item>@drawable/sura_16</item>
+        2"
+        <item>@drawable/sura_17</item>
+
+        <item>@drawable/sura_18</item>
+        <item>@drawable/sura_19</item>
+
+
+        <item>@drawable/sura_20</item>
+        7"
+        <item>@drawable/sura_21</item>
+        8"
+        <item>@drawable/sura_22</item>
+        9"
+        <item>@drawable/sura_23</item>
+        a"
+        <item>@drawable/sura_24</item>
+        b"
+        <item>@drawable/sura_25</item>
+        c"
+        <item>@drawable/sura_26</item>
+        d"
+        <item>@drawable/sura_27</item>
+        e"
+        <item>@drawable/sura_28</item>
+        f"
+        <item>@drawable/sura_29</item>
+        0"
+
+        <item>@drawable/sura_30</item>
+        2"
+        <item>@drawable/sura_31</item>
+        3"
+        <item>@drawable/sura_32</item>
+        4"
+        <item>@drawable/sura_33</item>
+        5"
+        <item>@drawable/sura_34</item>
+        6"
+        <item>@drawable/sura_35</item>
+        7"
+        <item>@drawable/sura_36</item>
+        8"
+        <item>@drawable/sura_37</item>
+        9"
+        <item>@drawable/sura_38</item>
+        a"
+        <item>@drawable/sura_39</item>
+
+
+        <item>@drawable/sura_40</item>
+
+        <item>@drawable/sura_41</item>
+
+        <item>@drawable/sura_42</item>
+
+        <item>@drawable/sura_43</item>70160"
+        <item>@drawable/sura_44</item>70161"
+        <item>@drawable/sura_45</item>70162"
+        <item>@drawable/sura_46</item>70163"
+        <item>@drawable/sura_47</item>70164"
+        <item>@drawable/sura_48</item>70165"
+        <item>@drawable/sura_49</item>70166"
+        <item>@drawable/sura_50</item>70168"
+        <item>@drawable/sura_51</item>70169"
+        <item>@drawable/sura_52</item>7016a"
+        <item>@drawable/sura_53</item>7016b"
+        <item>@drawable/sura_54</item>7016c"
+        <item>@drawable/sura_55</item>7016d"
+        <item>@drawable/sura_56</item>7016e"
+        <item>@drawable/sura_57</item>7016f"
+        <item>@drawable/sura_58</item>70170"
+        <item>@drawable/sura_59</item>70171"
+
+        <item>@drawable/sura_60</item>70173"
+        <item>@drawable/sura_61</item>70174"
+        <item>@drawable/sura_62</item>70175"
+        <item>@drawable/sura_63</item>70176"
+        <item>@drawable/sura_64</item>70177"
+        <item>@drawable/sura_65</item>70178"
+        <item>@drawable/sura_66</item>70179"
+        <item>@drawable/sura_67</item>7017a"
+        <item>@drawable/sura_68</item>7017b"
+        <item>@drawable/sura_69</item>7017c"
+
+        <item>@drawable/sura_70</item>7017e"
+        <item>@drawable/sura_71</item>7017f"
+        <item>@drawable/sura_72</item>70180"
+        <item>@drawable/sura_73</item>70181"
+        <item>@drawable/sura_74</item>70182"
+        <item>@drawable/sura_75</item>70183"
+        <item>@drawable/sura_76</item>70184"
+        <item>@drawable/sura_77</item>70185"
+        <item>@drawable/sura_78</item>70186"
+        <item>@drawable/sura_79</item>70187"
+
+        <item>@drawable/sura_80</item>70189"
+        <item>@drawable/sura_81</item>7018a"
+        <item>@drawable/sura_82</item>7018b"
+        <item>@drawable/sura_83</item>7018c"
+        <item>@drawable/sura_84</item>7018d"
+        <item>@drawable/sura_85</item>7018e"
+        <item>@drawable/sura_86</item>7018f"
+        <item>@drawable/sura_87</item>70190"
+        <item>@drawable/sura_88</item>70191"
+        <item>@drawable/sura_89</item>70192"
+
+        <item>@drawable/sura_90</item>70194"
+        <item>@drawable/sura_91</item>70195"
+        <item>@drawable/sura_92</item>70196"
+        <item>@drawable/sura_93</item>70197"
+        <item>@drawable/sura_94</item>70198"
+        <item>@drawable/sura_95</item>70199"
+        <item>@drawable/sura_96</item>7019a"
+        <item>@drawable/sura_97</item>7019b"
+        <item>@drawable/sura_98</item>7019c"
+        <item>@drawable/sura_99</item>7019d"
+
+        <item>@drawable/sura_100</item>7012e"
+        <item>@drawable/sura_101</item>7012f"
+        <item>@drawable/sura_102</item>
+        0"
+        <item>@drawable/sura_103</item>
+        1"
+        <item>@drawable/sura_104</item>
+        2"
+        <item>@drawable/sura_105</item>
+        3"
+        <item>@drawable/sura_106</item>
+        4"
+        <item>@drawable/sura_107</item>
+        5"
+        <item>@drawable/sura_108</item>
+        6"
+        <item>@drawable/sura_109</item>
+        7"
+
+        <item>@drawable/sura_110</item>
+        9"
+        <item>@drawable/sura_111</item>
+        a"
+        <item>@drawable/sura_112</item>
+        b"
+        <item>@drawable/sura_113</item>
+        c"
+        <item>@drawable/sura_114</item>
+        d"
+    </integer-array>
+
+
+    <integer-array name="versescount">
+
+        <item>7</item>
+        <item>286</item>
+        <item>200</item>
+        <item>176</item>
+        <item>120</item>
+        <item>165</item>
+        <item>206</item>
+        <item>75</item>
+        <item>129</item>
+        <item>109</item>
+        <item>123</item>
+        <item>111</item>
+        <item>43</item>
+        <item>52</item>
+        <item>99</item>
+        <item>128</item>
+        <item>111</item>
+        <item>110</item>
+        <item>98</item>
+        <item>135</item>
+        <item>112</item>
+        <item>78</item>
+        <item>118</item>
+        <item>64</item>
+        <item>77</item>
+        <item>227</item>
+        <item>93</item>
+        <item>88</item>
+        <item>69</item>
+        <item>60</item>
+        <item>34</item>
+        <item>30</item>
+        <item>73</item>
+        <item>54</item>
+        <item>45</item>
+        <item>83</item>
+        <item>182</item>
+        <item>88</item>
+        <item>75</item>
+        <item>85</item>
+        <item>54</item>
+        <item>53</item>
+        <item>89</item>
+        <item>59</item>
+        <item>37</item>
+        <item>35</item>
+        <item>38</item>
+        <item>29</item>
+        <item>18</item>
+        <item>45</item>
+        <item>60</item>
+        <item>49</item>
+        <item>62</item>
+        <item>55</item>
+        <item>78</item>
+        <item>96</item>
+        <item>29</item>
+        <item>22</item>
+        <item>24</item>
+        <item>13</item>
+        <item>14</item>
+        <item>11</item>
+        <item>11</item>
+        <item>18</item>
+        <item>12</item>
+        <item>12</item>
+        <item>30</item>
+        <item>52</item>
+        <item>52</item>
+        <item>44</item>
+        <item>28</item>
+        <item>28</item>
+        <item>20</item>
+        <item>56</item>
+        <item>40</item>
+        <item>31</item>
+        <item>50</item>
+        <item>40</item>
+        <item>46</item>
+        <item>42</item>
+        <item>29</item>
+        <item>19</item>
+        <item>36</item>
+        <item>25</item>
+        <item>22</item>
+        <item>17</item>
+        <item>19</item>
+        <item>26</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>21</item>
+        <item>11</item>
+        <item>8</item>
+        <item>8</item>
+        <item>19</item>
+        <item>5</item>
+        <item>8</item>
+        <item>8</item>
+        <item>11</item>
+        <item>11</item>
+        <item>8</item>
+        <item>3</item>
+        <item>9</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>6</item>
+        <item>3</item>
+        <item>5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <array name="autosize_text_sizes">
+
+
+        <item>22sp</item>
+        <item>24sp</item>
+        <item>28sp</item>
+    </array>
+//fek
+
+</resources>

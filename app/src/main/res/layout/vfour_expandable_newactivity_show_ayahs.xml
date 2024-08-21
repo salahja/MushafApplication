@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/rvAyahsPages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:visibility="visible" />
+
+    <include layout="@layout/fbarnormalfooter"
+
+
+        android:visibility="gone"
+        />
+    <include layout="@layout/rxfetch_progress"
+
+
+
+        android:visibility="gone"
+        />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+            android:id="@+id/audio_settings_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:visibility="visible"
+            app:behavior_peekHeight="30dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom">
+
+
+
+
+
+    <include layout="@layout/dialog_audio_panel"
+
+        android:visibility="visible"
+        />
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+        <RelativeLayout
+            app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+            android:id="@+id/footerplayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:behavior_peekHeight="35dp"
+            android:gravity="bottom"
+
+
+            >
+
+            <include layout="@layout/exoplayer"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:visibility="visible"
+                />
+
+
+
+            <!--  <include layout="@layout/exoplayer"-->
+
+
+
+
+
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.example.utility.MovableFloatingActionButton
+        android:id="@+id/playfb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/rotatewheel"
+        app:fabSize="normal"/>
+<!--    <include layout="@layout/expandable_fbuttons"
+
+         android:layout_gravity="bottom"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+</FrameLayout>

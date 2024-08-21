@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="?selectableItemBackground"
+    android:orientation="horizontal"
+    tools:context="org.sj.conjugator.activity.ConjugatorAct">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="200dp"
+            android:layout_height="210dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp" />
+
+
+        <ListView
+            android:id="@+id/list_item"
+            android:layout_width="200dp"
+            android:layout_height="210dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:textSize="30sp" />
+
+        <org.sj.conjugator.CustomKeyboard.OvalCustomKeyboard
+
+            android:id="@+id/arabic_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="visible" />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/firstrow"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="end"
+        android:layout_marginVertical="100dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="3dp"
+
+        android:visibility="visible">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top|right"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginTop="40dp"
+            android:visibility="gone"
+
+            app:srcCompat="@android:drawable/btn_plus" />
+
+        <ru.dimorinny.floatingtextbutton.FloatingTextButton
+            android:id="@+id/action_buttons"
+            android:layout_width="94dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/fab"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="start|bottom|center"
+
+
+            android:background="?selectableItemBackground"
+
+            android:foregroundGravity="bottom"
+
+            android:visibility="visible"
+
+
+            app:floating_background_color="@color/color_surface"
+            app:floating_left_icon="@drawable/baseline_history_black_48dp"
+            app:floating_title="Back    "
+
+
+            app:floating_title_color="@color/colorOnPrimary"
+
+
+            />
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/conjugator_bottom_menu" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+

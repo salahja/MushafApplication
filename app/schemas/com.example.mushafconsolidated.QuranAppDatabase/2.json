@@ -1,0 +1,657 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "3b9d045b06fa585da1ce541d55a90541",
+    "entities": [
+      {
+        "tableName": "GrammarWord",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`arabic_grammar` TEXT NOT NULL, `english_grammar` TEXT NOT NULL, `word_no` INTEGER NOT NULL, `english_meaning` TEXT NOT NULL, `chapter_no` INTEGER NOT NULL, `verse_no` INTEGER NOT NULL, PRIMARY KEY(`chapter_no`, `verse_no`, `word_no`))",
+        "fields": [
+          {
+            "fieldPath": "arabic_grammar",
+            "columnName": "arabic_grammar",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "english_grammar",
+            "columnName": "english_grammar",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "word_no",
+            "columnName": "word_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "english_meaning",
+            "columnName": "english_meaning",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter_no",
+            "columnName": "chapter_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_no",
+            "columnName": "verse_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "chapter_no",
+            "verse_no",
+            "word_no"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "VerseNew",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`verseID` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `chapter_no` INTEGER NOT NULL, `verse_no` INTEGER NOT NULL, `text_indopak` TEXT NOT NULL, `text_uthmani` TEXT NOT NULL, `passage_no` INTEGER NOT NULL, `text` TEXT NOT NULL, `text_clean` TEXT NOT NULL, `has_prostration` INTEGER NOT NULL, `en_text` TEXT NOT NULL, `erab_text` TEXT, `ur_ahmedali` TEXT NOT NULL, FOREIGN KEY(`chapter_no`) REFERENCES `chaptersana`(`chapterid`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "verseID",
+            "columnName": "verseID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter_no",
+            "columnName": "chapter_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_no",
+            "columnName": "verse_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text_indopak",
+            "columnName": "text_indopak",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text_uthmani",
+            "columnName": "text_uthmani",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "passage_no",
+            "columnName": "passage_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text_clean",
+            "columnName": "text_clean",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "has_prostration",
+            "columnName": "has_prostration",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "en_text",
+            "columnName": "en_text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "erab_text",
+            "columnName": "erab_text",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ur_ahmedali",
+            "columnName": "ur_ahmedali",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "verseID"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "chaptersana",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "chapter_no"
+            ],
+            "referencedColumns": [
+              "chapterid"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "buckwater",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`decimel` INTEGER NOT NULL, `hex` TEXT NOT NULL, `ascii` TEXT NOT NULL, `orthography` TEXT NOT NULL, `arabic` TEXT, PRIMARY KEY(`decimel`))",
+        "fields": [
+          {
+            "fieldPath": "decimel",
+            "columnName": "decimel",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hex",
+            "columnName": "hex",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ascii",
+            "columnName": "ascii",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "orthography",
+            "columnName": "orthography",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "arabic",
+            "columnName": "arabic",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "decimel"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "bookmarks",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chapter_no` INTEGER NOT NULL, `verse_no` INTEGER NOT NULL, `datestamp` TEXT NOT NULL, `timestamp` TEXT NOT NULL, PRIMARY KEY(`timestamp`))",
+        "fields": [
+          {
+            "fieldPath": "chapter_no",
+            "columnName": "chapter_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_no",
+            "columnName": "verse_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "datestamp",
+            "columnName": "datestamp",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "timestamp"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "mufradat_verses",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `SurahNumber` INTEGER NOT NULL, `AyahNumber` INTEGER NOT NULL, `AyahTextQalam` TEXT NOT NULL, `AyahTextMuhammadi` INTEGER NOT NULL, `AyahTextPdms` TEXT NOT NULL, `AyahTextPlain` TEXT NOT NULL, `Translation` TEXT NOT NULL, `Tafseer` TEXT NOT NULL, `Words` TEXT NOT NULL, `SurahName` TEXT NOT NULL, `Ruku` INTEGER NOT NULL, `Sajda` INTEGER NOT NULL, `ParahNumber` INTEGER NOT NULL, `RukuParahNumber` INTEGER NOT NULL, `RukuSurahNumber` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "Id",
+            "columnName": "Id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SurahNumber",
+            "columnName": "SurahNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "AyahNumber",
+            "columnName": "AyahNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "AyahTextQalam",
+            "columnName": "AyahTextQalam",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "AyahTextMuhammadi",
+            "columnName": "AyahTextMuhammadi",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "AyahTextPdms",
+            "columnName": "AyahTextPdms",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "AyahTextPlain",
+            "columnName": "AyahTextPlain",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Translation",
+            "columnName": "Translation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Tafseer",
+            "columnName": "Tafseer",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Words",
+            "columnName": "Words",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "SurahName",
+            "columnName": "SurahName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Ruku",
+            "columnName": "Ruku",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "Sajda",
+            "columnName": "Sajda",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ParahNumber",
+            "columnName": "ParahNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "RukuParahNumber",
+            "columnName": "RukuParahNumber",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "RukuSurahNumber",
+            "columnName": "RukuSurahNumber",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "Id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Translation",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`translation_id` TEXT NOT NULL, `language_code` TEXT NOT NULL, `language_name` TEXT NOT NULL, `author_name` TEXT NOT NULL, `english_name` TEXT NOT NULL, `country_code` TEXT NOT NULL, `column_name` TEXT NOT NULL, `modified_timestamp` INTEGER NOT NULL, `is_downloaded` INTEGER NOT NULL, PRIMARY KEY(`translation_id`))",
+        "fields": [
+          {
+            "fieldPath": "translation_id",
+            "columnName": "translation_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language_code",
+            "columnName": "language_code",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "language_name",
+            "columnName": "language_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "author_name",
+            "columnName": "author_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "english_name",
+            "columnName": "english_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "country_code",
+            "columnName": "country_code",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "column_name",
+            "columnName": "column_name",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "modified_timestamp",
+            "columnName": "modified_timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "is_downloaded",
+            "columnName": "is_downloaded",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "translation_id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "TranslationData",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`translation_id` TEXT NOT NULL, `verse_id` INTEGER NOT NULL, `translation` TEXT NOT NULL, PRIMARY KEY(`translation_id`, `verse_id`), FOREIGN KEY(`translation_id`) REFERENCES `Translation`(`translation_id`) ON UPDATE NO ACTION ON DELETE CASCADE , FOREIGN KEY(`verse_id`) REFERENCES `VerseNew`(`verseID`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "translation_id",
+            "columnName": "translation_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_id",
+            "columnName": "verse_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "translation",
+            "columnName": "translation",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "translation_id",
+            "verse_id"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "Translation",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "translation_id"
+            ],
+            "referencedColumns": [
+              "translation_id"
+            ]
+          },
+          {
+            "table": "VerseNew",
+            "onDelete": "CASCADE",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "verse_id"
+            ],
+            "referencedColumns": [
+              "verseID"
+            ]
+          }
+        ]
+      },
+      {
+        "tableName": "chaptersana",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`revelationnumber` INTEGER NOT NULL DEFAULT 0, `serialnumber` INTEGER NOT NULL DEFAULT 0, `namearabic` TEXT NOT NULL, `nameurdu` TEXT, `nameenglish` TEXT, `ismakki` INTEGER NOT NULL DEFAULT 1, `versescount` INTEGER NOT NULL DEFAULT 0, `rukucount` INTEGER NOT NULL DEFAULT 0, `abjadname` TEXT NOT NULL, `arahsfall` TEXT NOT NULL, `versesparahdiv` TEXT, `sajdaverses` TEXT, `cumversescount` INTEGER NOT NULL, `chapterid` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "revelationnumber",
+            "columnName": "revelationnumber",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "serialnumber",
+            "columnName": "serialnumber",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "namearabic",
+            "columnName": "namearabic",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "nameurdu",
+            "columnName": "nameurdu",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "nameenglish",
+            "columnName": "nameenglish",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ismakki",
+            "columnName": "ismakki",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "versescount",
+            "columnName": "versescount",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "rukucount",
+            "columnName": "rukucount",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "abjadname",
+            "columnName": "abjadname",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "arahsfall",
+            "columnName": "arahsfall",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "versesparahdiv",
+            "columnName": "versesparahdiv",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "sajdaverses",
+            "columnName": "sajdaverses",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "cumversescount",
+            "columnName": "cumversescount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapterid",
+            "columnName": "chapterid",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "chapterid"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "wbw",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`word_no` INTEGER NOT NULL, `chapter_no` INTEGER NOT NULL, `verse_no` INTEGER NOT NULL, `root!!` TEXT NOT NULL, `translation` TEXT NOT NULL, `verse_tbl_id` INTEGER NOT NULL, `word_by_word_translationID` INTEGER NOT NULL, `word` TEXT NOT NULL, PRIMARY KEY(`word_by_word_translationID`), FOREIGN KEY(`verse_tbl_id`) REFERENCES `VerseNew`(`verseID`) ON UPDATE NO ACTION ON DELETE NO ACTION )",
+        "fields": [
+          {
+            "fieldPath": "word_no",
+            "columnName": "word_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "chapter_no",
+            "columnName": "chapter_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_no",
+            "columnName": "verse_no",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "root!!",
+            "columnName": "root!!",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "translation",
+            "columnName": "translation",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "verse_tbl_id",
+            "columnName": "verse_tbl_id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "word_by_word_translationID",
+            "columnName": "word_by_word_translationID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "word",
+            "columnName": "word",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "word_by_word_translationID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "VerseNew",
+            "onDelete": "NO ACTION",
+            "onUpdate": "NO ACTION",
+            "columns": [
+              "verse_tbl_id"
+            ],
+            "referencedColumns": [
+              "verseID"
+            ]
+          }
+        ]
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '3b9d045b06fa585da1ce541d55a90541')"
+    ]
+  }
+}

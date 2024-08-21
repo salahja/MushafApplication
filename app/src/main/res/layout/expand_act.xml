@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <com.google.android.material.appbar.AppBarLayout
+        app:cardBackgroundColor="@android:color/transparent"
+        android:background="?android:colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/my_action_bar"
+            android:layout_width="match_parent"
+
+
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:layout_height="?attr/actionBarSize"
+            android:animateLayoutChanges="false"
+            android:layout_alignParentTop="true"
+            app:menu="@menu/menu_search"
+
+
+
+            app:elevation="4.0dip" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="140dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recview" />
+
+        <!-- res/layout/example_activity.xml -->
+
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_marginTop="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="false"
+
+            style="@style/TextAppearance.Design.CollapsingToolbar.Expanded"
+
+            android:childDivider="@android:color/transparent"
+            android:divider="@android:color/holo_red_dark"
+
+            android:dividerHeight="1dp"
+
+            >
+
+
+        </ExpandableListView>
+<!--
+        </androidx.cardview.widget.CardView>-->
+    </FrameLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

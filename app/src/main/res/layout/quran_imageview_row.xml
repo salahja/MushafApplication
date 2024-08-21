@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@id/chaptername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingTop="3.0dip"
+            android:paddingEnd="5.0dip"
+            android:paddingBottom="3.0dip"
+            android:text="chapter"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@id/surahicon"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_alignEnd="@+id/chaptername"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/space_5"
+            android:layout_weight="1"
+            android:paddingEnd="@dimen/space_2"
+            android:visibility="gone">
+
+        </ImageView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/collectionfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fabCustomSize="@dimen/fabsize"
+            android:tooltipText="Share ScreenShot"
+            android:src="@drawable/baseline_collections_24"
+
+            android:contentDescription="share"
+            tools:ignore="RelativeOverlap" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sharescreenfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fabCustomSize="@dimen/fabsize"
+            android:tooltipText="Share ScreenShot"
+            android:src="@drawable/baseline_share_36"
+
+            android:contentDescription="share"
+            tools:ignore="RelativeOverlap" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/jumptofb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tooltipText="Jump to Surah/Ayah"
+            app:fabSize="mini"
+            android:src="@drawable/ic_baseline_open_in_browser_36"
+            app:fabCustomSize="@dimen/fabsize"
+            android:contentDescription="TODOs"
+            tools:ignore="RelativeOverlap" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/tafsirfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="normal"
+            app:fabCustomSize="@dimen/fabsize"
+            android:tooltipText="Tafsir Ibne Kathir"
+            android:src="@drawable/tafsir"
+            app:srcCompat="@android:drawable/ic_dialog_map"
+            android:contentDescription="TODOss" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/summbaryfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:tooltipText="Surah Summary"
+            app:fabCustomSize="@dimen/fabsize"
+            app:srcCompat="@drawable/baseline_summarize_24"
+
+            android:contentDescription="TODOss" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/helpfb"
+            android:tooltipText="Grammar Word Color Scheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fabCustomSize="@dimen/fabsize"
+            app:srcCompat="@drawable/baseline_help_36"
+
+            android:contentDescription="TODOss" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bookmarfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tooltipText="Bookmark Ayah"
+            app:fabCustomSize="@dimen/fabsize"
+            app:fabSize="mini"
+            android:src="@drawable/ic_baseline_bookmark_add_24"
+
+
+            android:contentDescription="TODssO" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/expandfabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            app:fabCustomSize="@dimen/fabsize"
+            android:src="@drawable/rotatewheel"
+            app:srcCompat="@android:drawable/btn_plus"
+            android:contentDescription="TODO" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivSumarry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="0"
+            android:background="?attr/selectableItemBackground"
+            android:paddingStart="@dimen/space_1"
+            android:paddingEnd="@dimen/space_1"
+            android:scaleType="fitCenter"
+
+
+            app:srcCompat="@drawable/baseline_summarize_24" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@id/ivActionOverflow"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dip"
+            android:layout_toRightOf="@+id/expandfabs"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:backgroundTint="@color/white"
+
+            android:elevation="10dp"
+
+            android:padding="1dp"
+            android:paddingStart="@dimen/space_1"
+            android:paddingEnd="@dimen/space_1"
+
+
+
+            app:srcCompat="@drawable/baseline_menu_open_24">
+
+
+
+
+        </ImageView>
+        <ImageView
+            android:id="@id/ivActionOverflowtwo"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dip"
+
+
+            android:background="?attr/selectableItemBackground"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="30dp"
+            android:elevation="10dp"
+
+            android:padding="1dp"
+            android:paddingStart="@dimen/space_1"
+            android:paddingEnd="@dimen/space_1"
+
+
+            android:visibility="gone"
+            app:srcCompat="@drawable/shr_filter">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/headers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="title"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/colorized"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:paddingBottom="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@id/arrowforward"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:cropToPadding="true"
+            android:elevation="10dp"
+
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+
+
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_24" />
+
+        <ImageView
+            android:id="@id/arrowback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:cropToPadding="true"
+            android:elevation="10dp"
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+
+
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:id="@id/jumpto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+
+            android:cropToPadding="true"
+            android:elevation="10dp"
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+
+
+            app:srcCompat="@drawable/ic_baseline_open_in_browser_24" />
+
+
+        <ImageView
+            android:id="@id/ivHelp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+
+            android:backgroundTint="@color/white"
+
+
+            android:padding="1dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+
+            app:srcCompat="@drawable/ic_baseline_help_24" />
+
+
+    </LinearLayout>
+</RelativeLayout>

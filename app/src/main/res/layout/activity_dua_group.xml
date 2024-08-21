@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_dua_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:baselineAligned="false"
+    android:orientation="vertical"
+   >
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/my_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="48.0dip"
+
+
+            android:layout_alignParentTop="true"
+            android:animateLayoutChanges="false"
+
+            android:theme="@style/Widget.MaterialComponents.Toolbar"
+            app:elevation="4.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="40dp"
+            android:id="@+id/duaListView"
+            android:layoutAnimation="@anim/layout_flyincenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="true"
+            android:footerDividersEnabled="false"
+             />
+
+        <View
+            android:id="@+id/view_toolbar_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/toolbar_shadow" />
+
+        <!-- res/layout/example_activity.xml -->
+
+    </FrameLayout>
+
+</LinearLayout>

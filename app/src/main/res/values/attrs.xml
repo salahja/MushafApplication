@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+~ Copyright (C) 2019 The Android Open Source Project
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~      http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<resources>
+    <attr name="colorCustomColor1" format="color" />
+    <attr name="colorOnCustomColor1" format="color" />
+    <attr name="colorCustomColor1Container" format="color" />
+    <attr name="colorOnCustomColor1Container" format="color" />
+    <attr name="harmonizeCustomColor1" format="boolean" />
+
+    <attr name="bgColor" format="color" />
+    <attr name="textColor" format="color" />
+    <attr name="metaTextColor" format="color" />
+    <attr name="colorCardBackground" format="reference" />
+    <attr name="colorCardHighlight" format="reference" />
+    <attr name="backgroundDrawerHeader" format="reference" />
+    <attr name="catalogToolbarStyle" format="reference" />
+    <attr name="catalogToolbarWithCloseButtonStyle" format="reference" />
+    <attr name="textInputSignInStyle" format="reference" />
+    <!--Common attributes-->
+    <attr name="colorFillColor" format="color" />
+    <attr name="colorStrokeColor" format="color" />
+    <attr name="backgroundColorLight" format="reference|color" />
+    <attr name="colorAccentLight" format="reference|color" />
+    <attr name="colorPrimaryLight" format="reference|color" />
+    <attr name="color_on_surface" format="reference" />
+
+    <attr name="even_item_bg" format="color" />
+    <attr name="item_selector" format="color" />
+    <attr name="odd_item_bg" format="reference|color" />
+    <attr name="card_bg" format="reference|color" />
+
+    <attr name="dialog_bg" format="reference|color" />
+    <attr name="sc_tint_color" format="reference|color" />
+    <attr name="sc_unchecked_tint_color" format="reference|color" />
+
+    <attr name="textColorLight" format="reference|color" />
+
+
+    <!--Label view attributes-->
+    <declare-styleable name="LabelLinkView">
+        <attr name="android:text" />
+        <attr name="leadingIcon" format="integer" />
+        <attr name="linkUrl" format="string" />
+    </declare-styleable>
+
+    <!--Color attribute view attributes-->
+    <declare-styleable name="ColorAttributeView">
+        <attr name="android:text" />
+        <attr name="colorFillColor" />
+        <attr name="colorStrokeColor" />
+    </declare-styleable>
+
+    <!--Color dot view attributes-->
+    <declare-styleable name="ColorDotView">
+        <attr name="colorFillColor" />
+        <attr name="colorStrokeColor" />
+    </declare-styleable>
+
+    <!--Type attribute view attributes-->
+    <declare-styleable name="TypeAttributeView">
+        <attr name="android:text" />
+        <attr name="previewText" format="string" />
+        <attr name="previewTextAppearance" format="reference" />
+        <attr name="previewTextColor" format="reference" />
+    </declare-styleable>
+
+    <!--Shape attribute view attributes-->
+    <declare-styleable name="ShapeAttributeView">
+        <attr name="android:text" />
+        <attr name="shapeSizeLetter" format="string" />
+        <attr name="shapeFillColor" format="color" />
+        <attr name="shapeStrokeColor" format="color" />
+        <attr name="shapeAppearanceAttr" format="reference" />
+    </declare-styleable>
+
+
+    <attr name="pagerTitleStripTextColor" format="reference|color" />
+    <attr name="pagerTitleStripBackground" format="reference|color" />
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <!--Horizontal and vertical spacing-->
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="rtl" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="XFlowLayout">
+        <!--Horizontal and vertical spacing-->
+        <attr name="h_space" format="dimension" />
+        <attr name="v_space" format="dimension" />
+        <attr name="maxlines" format="integer" />
+        <attr name="maxcolums" format="integer" />
+    </declare-styleable>
+
+
+    <attr name="separator_bg" format="reference|color" />
+
+    <attr name="text_color" format="reference|color" />
+    <attr name="bg_card" format="reference|color" />
+
+    <attr name="bg_body" format="reference|color" />
+
+    <attr name="bg_search" format="reference|color" />
+    <attr name="bg_toolbar" format="reference|color" />
+
+
+    <attr name="custom_white" format="reference|color" />
+    <attr name="divider_color" format="reference|color" />
+    <attr name="field_border" format="reference|color" />
+    <attr name="field_hint" format="reference|color" />
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+
+    <attr name="colorPrimarySurfaceVariant" format="color" />
+
+    <!--Emphasis values are used in combination with each "on" color to create three available -->
+    <!--levels of emphasis for text and content.-->
+    <attr name="emphasisHighAlpha" format="float" />
+    <attr name="emphasisMediumAlpha" format="float" />
+    <attr name="emphasisDisabledAlpha" format="float" />
+
+    <attr name="motionInterpolatorPersistent" format="reference" />
+    <attr name="motionInterpolatorIncoming" format="reference" />
+    <attr name="motionInterpolatorOutgoing" format="reference" />
+
+    <!--Custom view themes/styles-->
+    <attr name="bottomNavigationDrawerStyle" format="reference" />
+    <attr name="bottomNavigationDrawerNavigationViewTheme" format="reference" />
+
+    <attr name="transitionShapeAppearance" format="reference" />
+
+    <declare-styleable name="NumberPicker">
+        <attr name="np_width" format="dimension" />
+        <attr name="np_height" format="dimension" />
+        <attr name="np_accessibilityDescriptionEnabled" format="boolean" />
+        <attr name="np_divider" format="reference" />
+        <attr name="np_dividerType" format="enum">
+            <enum name="side_lines" value="0" />
+            <enum name="underline" value="1" />
+        </attr>
+        <attr name="np_dividerColor" format="color" />
+        <attr name="np_dividerDistance" format="dimension" />
+        <attr name="np_dividerLength" format="dimension" />
+        <attr name="np_dividerThickness" format="dimension" />
+        <attr name="np_fadingEdgeEnabled" format="boolean" />
+        <attr name="np_fadingEdgeStrength" format="float" />
+        <attr name="np_formatter" format="string" />
+        <attr name="np_hideWheelUntilFocused" format="boolean" />
+        <attr name="np_itemSpacing" format="dimension" />
+        <attr name="np_lineSpacingMultiplier" format="float" />
+        <attr name="np_max" format="integer" />
+        <attr name="np_maxFlingVelocityCoefficient" format="integer" />
+        <attr name="np_min" format="integer" />
+        <attr name="np_order" format="enum">
+            <enum name="ascending" value="0" />
+            <enum name="descending" value="1" />
+        </attr>
+        <attr name="np_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="np_scrollerEnabled" format="boolean" />
+        <attr name="np_selectedTextAlign" format="enum">
+            <enum name="selectedTextAlignRight" value="0" />
+            <enum name="selectedTextAlignCenter" value="1" />
+            <enum name="selectedTextAlignLeft" value="2" />
+        </attr>
+        <attr name="np_selectedTextColor" format="color" />
+        <attr name="np_selectedTextSize" format="dimension" />
+        <attr name="np_selectedTextStrikeThru" format="boolean" />
+        <attr name="np_selectedTextUnderline" format="boolean" />
+        <attr name="np_selectedTypeface" format="string" />
+        <attr name="np_textAlign" format="enum">
+            <enum name="textAlignRight" value="0" />
+            <enum name="textAlignCenter" value="1" />
+            <enum name="textAlignLeft" value="2" />
+        </attr>
+        <attr name="np_textColor" format="color" />
+        <attr name="np_textSize" format="dimension" />
+        <attr name="np_textStrikeThru" format="boolean" />
+        <attr name="np_textUnderline" format="boolean" />
+        <attr name="np_typeface" format="string" />
+        <attr name="np_value" format="integer" />
+        <attr name="np_wheelItemCount" format="integer" />
+        <attr name="np_wrapSelectorWheel" format="boolean" />
+
+
+    </declare-styleable>
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="WheelView">
+        <attr name="wheelCyclic" format="boolean"/>
+        <attr name="wheelEntries" format="reference"/>
+        <attr name="wheelItemCount" format="integer"/>
+        <attr name="wheelItemWidth" format="dimension"/>
+        <attr name="wheelItemHeight" format="dimension"/>
+        <attr name="wheelTextSize" format="dimension"/>
+        <attr name="wheelTextColor" format="color"/>
+        <attr name="wheelSelectedTextColor" format="color"/>
+        <attr name="wheelDividerColor" format="color"/>
+        <attr name="wheelHighlightColor" format="color"/>
+    </declare-styleable>
+</resources>

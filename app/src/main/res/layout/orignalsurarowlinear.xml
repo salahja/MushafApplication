@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:barrierMargin="2.0dip"
+    app:cardElevation="@dimen/space_1">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/surahcardview"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:dividerHeight="0.0px"
+        app:cardCornerRadius="12dp"
+
+        app:cardElevation="15dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_anchorGravity="bottom"
+        app:rippleColor="@color/colorAccent"
+      style="@style/Widget.Material3.CardView.Outlined"
+
+
+        app:strokeWidth="1dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/topPanel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@id/tvNumber"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginStart="@dimen/space_1"
+                    android:textSize="10.0sp" />
+
+                <TextView
+                    android:id="@id/tvArabic"
+                    android:layout_width="0dp"
+                    style="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/space_1"
+                    android:layout_weight="7.0"
+                    android:hint="The Opening"
+                    android:padding="@dimen/space_1"
+                    />
+
+                <ImageView
+                    android:id="@id/makkimadaniicon"
+                    android:layout_width="24.0dip"
+
+                    android:layout_height="24.0dip"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/space_1"
+                    android:layout_weight="1.0" />
+                <ImageView
+                    android:id="@id/surahicon"
+                    android:layout_width="30.0dip"
+
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/space_2"
+                    android:layout_weight="1.0"
+                    android:gravity="start"
+                    android:paddingEnd="@dimen/space_1" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

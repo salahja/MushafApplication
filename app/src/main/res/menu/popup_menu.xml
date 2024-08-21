@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/actionTafsir"
+        android:icon="@drawable/tafsir"
+        android:title="@string/popup_tafsir_ibn_kathir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bookmark"
+
+        android:icon="@drawable/ic_baseline_bookmark_add_24"
+        android:title="Bookmark"
+
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/jumpto"
+        android:icon="@drawable/ic_baseline_open_in_browser_36"
+        android:title="@string/go_to_surah_ayah"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/colorized"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_color_lens_24"
+        android:title="@string/colorize"
+
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ivHelp"
+        android:enabled="true"
+        android:icon="@drawable/baseline_help_outline_36"
+        android:title="@string/colorscheme"
+
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:enabled="true"
+        android:icon="@drawable/baseline_share_36"
+        android:title="@string/share_screen_image"
+
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share_text"
+        android:enabled="true"
+        android:icon="@drawable/baseline_share_36"
+        android:title="@string/share_text"
+
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        app:showAsAction="always" />
+
+
+</menu>

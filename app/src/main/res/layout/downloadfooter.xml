@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:id="@+id/footerdownload"
+    android:layout_gravity="bottom"
+ 
+
+
+
+    app:cardBackgroundColor="@android:color/transparent"
+    android:background="?android:colorBackground"
+    android:orientation="horizontal">
+    >
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginBottom="200dp"
+        android:id="@+id/canceldownload"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+
+        android:text="Cancel Download"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+
+        android:src="@drawable/ic_close"
+   />
+
+
+
+
+    <ProgressBar
+        android:layout_marginBottom="200dp"
+        android:id="@+id/downloadProgress"
+        android:layout_toEndOf="@+id/canceldownload"
+        android:progressBackgroundTint="@color/red"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="650dp"
+        android:layout_height="57dp"
+
+        android:indeterminate="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</RelativeLayout>

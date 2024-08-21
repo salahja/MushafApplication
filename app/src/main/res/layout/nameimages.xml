@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_margin="12dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:dividerHeight="0.0px"
+    app:cardCornerRadius="12dp"
+
+
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    app:layout_anchorGravity="bottom"
+    app:rippleColor="@color/colorAccent"
+
+
+    app:strokeColor="@color/color_primary_variant"
+    app:strokeWidth="1dp"
+
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager">
+
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Widget.Material3.MaterialTimePicker.ImageButton"
+            android:elevation="5dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/Names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:gravity="center"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Names"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+
+            android:gravity="center"
+            android:text="meaning"
+
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

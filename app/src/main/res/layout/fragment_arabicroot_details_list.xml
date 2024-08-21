@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/arabicroot_details_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+
+    android:layout_margin="12dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:dividerHeight="0.0px"
+    app:cardCornerRadius="12dp"
+    android:layout_marginStart="150dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    app:layout_anchorGravity="bottom"
+    app:rippleColor="@color/colorAccent"
+    style="@style/Widget.Material3.CardView.Outlined"
+
+
+    app:strokeWidth="1dp"
+
+    >
+
+    <FrameLayout
+
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/arabicroot_detaillist_rec"
+        android:name="com.example.roots.arabicrootListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="16dp"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="com.example.roots.arabicrootDetailHostActivity"
+        tools:listitem="@layout/arabicroot_list_content" />
+
+
+
+</androidx.cardview.widget.CardView>

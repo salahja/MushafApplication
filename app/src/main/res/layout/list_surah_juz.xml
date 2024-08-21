@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/suralist"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@android:color/transparent"
+
+     >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/transparent"
+        app:elevation="0.0dip">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+      >
+
+            <TextView
+               android:id="@+id/searchint"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:textColor="@color/cyan"
+               android:textSize="22sp"
+                android:paddingStart="18.0dip"
+                android:paddingEnd="18.0dip"
+                android:text="@string/searchhint"
+                android:visibility="gone" />
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:gravity="center_vertical"
+                android:paddingStart="18.0dip"
+                android:paddingEnd="18.0dip"
+                android:text="@string/bookmark_last_read"
+                android:visibility="visible" />
+
+
+
+                <LinearLayout
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingStart="@dimen/space_2"
+                    android:paddingEnd="@dimen/space_2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@id/lastread"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+
+                        android:hint="@string/bookmark_last_read"
+                        android:textSize="12.0sp"
+                        android:visibility="visible" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+
+                        android:textSize="16.0sp"
+                        android:visibility="gone" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+
+                        android:textSize="16.0sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+            <TextView
+                android:id="@id/tvLabelQuickLink"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+
+
+                android:gravity="center_vertical"
+                android:paddingStart="18.0dip"
+                android:paddingEnd="18.0dip"
+                android:text="@string/quick_links"
+                app:tabTextAppearance="@style/TabTextAppearance" />
+
+
+
+                <LinearLayout
+                    style="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:id="@id/llQuickLinks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:paddingStart="@dimen/space_2"
+                    android:paddingEnd="@dimen/space_2">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/kahaf"
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+
+                        android:text="@string/text_kahaf"
+                        android:textSize="12.0sp"
+                        app:elevation="12dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/ayatkursi"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/text_ayatul_kursi"
+                        android:textSize="12.0sp"
+                        app:elevation="7dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:visibility="gone"
+                        android:contentDescription="@string/_text_tafsir"
+                        android:textSize="12.0sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:visibility="gone"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:contentDescription="@string/_text_tafsir"
+                        android:textSize="16.0sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5.0dip"
+                        android:layout_weight="1.0"
+                        android:contentDescription="@string/_text_tafsir"
+                        android:textSize="16.0sp" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:paddingStart="18.0dip"
+                android:paddingEnd="18.0dip">
+
+                <TextView
+                    android:id="@+id/tvSura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/surah"
+                    app:tabTextAppearance="@style/TabTextAppearance" />
+
+                <TextView
+                    android:layout_marginStart="20dp"
+                    android:id="@+id/tiJuz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Juz"
+                    app:tabTextAppearance="@style/TabTextAppearance" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:id="@+id/scrollIndicatorUp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="top"
+        android:background="?attr/colorControlHighlight"
+    />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/wordByWordRecyclerView"
+        android:layoutAnimation="@anim/layout_flyincenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tooltipText="surah"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavView"
+        style="@style/ThemeOverlay.Material3.BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_7"
+        android:layout_gravity="bottom"
+
+
+
+
+
+        app:labelVisibilityMode="auto"
+        app:menu="@menu/bottom_nav_menu" />
+    <com.example.utility.MovableFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:visibility="visible"
+
+        app:itemIconTint="?attr/colorPrimary"
+        app:srcCompat="@android:drawable/btn_plus"
+        tools:ignore="MissingClass" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

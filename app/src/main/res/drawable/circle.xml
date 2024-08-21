@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:innerRadius="0dp"
+    android:shape="ring"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:thicknessRatio="2"
+    android:useLevel="false">
+
+    <solid android:color="?attr/colorPrimary" />
+</shape>

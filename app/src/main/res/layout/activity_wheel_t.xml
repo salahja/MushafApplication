@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="top"
+        android:textColor="#fff"
+        android:textSize="28dp"
+     android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+
+        android:text="bottom"
+        android:textColor="#fff"
+        android:textSize="18sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <wheel.WheelView
+        android:id="@+id/wv_year"
+
+
+        android:layout_width="468dp"
+        android:layout_height="237dp"
+        android:layout_below="@+id/textView2"
+
+        app:layout_constraintBottom_toBottomOf="@+id/wv_month"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/wv_month"
+        app:wheelCyclic="true" />
+
+    <wheel.WheelView
+        android:id="@+id/wv_month"
+
+        android:layout_width="92dp"
+
+        android:layout_height="180dp"
+        android:layout_below="@+id/textView2"
+        app:wheelTextColor="@color/background_color_light_green"
+        android:layout_toEndOf="@+id/wv_year"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:wheelCyclic="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

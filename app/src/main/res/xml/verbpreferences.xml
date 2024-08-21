@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+
+    <PreferenceCategory
+
+
+        app:title="Theme">
+        <ListPreference
+
+            android:defaultValue="35"
+            android:entries="@array/lang_names"
+            android:entryValues="@array/qarientryarry"
+            android:key="Qari"
+            android:title="@string/qari" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+
+        app:key="theme_category"
+        app:title="Conjugator AutoComplete">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="autocomplete"
+            android:title="Autocomplete On -Off" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="arabic_font_category"
+        app:title="Arabic Fonts">
+
+        <ListPreference
+            android:defaultValue="me_quran.ttf"
+            android:entries="@array/arabicFontListArray"
+            android:entryValues="@array/arabicFontEntryArray"
+
+            android:key="Arabic_Font_Selection"
+            android:title="Arabic Font Selection" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+
+        app:key="sarfkabeer_display"
+        app:title="Sarf Kabeer Display">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_verb"
+            android:title="Traditional-Verb Conjugation" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_participles"
+            android:title="Traditional-Participles etc" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

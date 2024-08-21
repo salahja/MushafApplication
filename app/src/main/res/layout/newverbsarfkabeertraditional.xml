@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.justJava.ZoomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:singleLine="true">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:stretchColumns="*">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+
+            <TextView
+                android:id="@id/pastactive"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                  android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:autoSizeStepGranularity="6sp"
+                android:gravity="center"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:text="@string/faelmazi" />
+
+        </androidx.cardview.widget.CardView>
+        
+
+
+ 
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/madihum"
+                        android:text="hum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madhihuma"
+                        android:text="huma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        />
+
+                    <TextView
+                        android:id="@id/madhihua"
+                        android:text="huua"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/madihunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madhihumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip" />
+
+                    <TextView
+                        android:id="@id/madhihia"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/madhiantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madhiantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                    <TextView
+                        android:id="@id/madhianta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/madhiantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madhiantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/madhianti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@id/madhinahnu"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/madhiana"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="01dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+
+
+                    <TextView
+                        android:id="@id/presentactive"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:text="@string/faelmudhary" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzhum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzhuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzhua"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzhunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzhumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzhia"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                    <TextView
+                        android:id="@id/muzanta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzanti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muznahnu"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzana"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+
+        
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+                    <TextView
+                        android:id="@id/pastpassive"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:text="@string/faelmadimajhool" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/madimajhum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madimajhuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        />
+
+                    <TextView
+                        android:id="@id/madimajhua"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/madimajhunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madimajhumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip" />
+
+                    <TextView
+                        android:id="@id/madimajhia"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+        
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/madimajantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madimajantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                    <TextView
+                        android:id="@id/madimajanta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+                </LinearLayout>
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/madimajantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/madimajantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/madimajanti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/madimajnahnu"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/madimajana"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+
+        
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+
+
+                    <TextView
+                        android:id="@id/presentpassive"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:text="@string/faelmudharymajhol" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzmajhum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzmajhuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        />
+
+                    <TextView
+                        android:id="@id/muzmajhua"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzmajhunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzmajhumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip" />
+
+                    <TextView
+                        android:id="@id/muzmajhia"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/muzmajantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzmajantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                    <TextView
+                        android:id="@id/muzmajanta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+                </LinearLayout>
+
+        
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/muzmajantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/muzmajantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzmajanti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/muzmajnahnu"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@id/muzmajana"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+                </LinearLayout>
+
+
+
+        
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="01dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/command"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+
+                        />
+
+
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <LinearLayout
+                   android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/amrantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/amrantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        />
+
+                    <TextView
+                        android:id="@id/amranta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+        
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/amrantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/amrantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip" />
+
+                    <TextView
+                        android:id="@id/amranti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+        
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="01dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:clipChildren="false"
+
+            android:clipToPadding="false"
+            android:dividerHeight="0.0px"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            app:rippleColor="@color/colorAccent"
+            app:strokeColor="@color/color_primary_variant"
+            app:strokeWidth="1dp">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@id/negcommand"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+
+                        />
+
+
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/nahiamrantum"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/nahiamrantuma"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        />
+
+                    <TextView
+                        android:id="@id/nahiamranta"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+
+        
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/nahiamrantunna"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                    <TextView
+                        android:id="@+id/nahiamrantumaf"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip" />
+
+                    <TextView
+                        android:id="@id/nahiamranti"
+                        style="@android:style/TextAppearance.DeviceDefault.Medium"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:autoSizeMaxTextSize="26sp"
+                        android:autoSizeMinTextSize="10sp"
+                        android:autoSizeStepGranularity="6sp"
+                        android:gravity="center|right"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip" />
+
+
+                </LinearLayout>
+
+
+        
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="01dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/darker_gray" />
+
+
+    </TableLayout>
+
+
+</com.example.justJava.ZoomLayout>

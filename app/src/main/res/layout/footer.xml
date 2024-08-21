@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    style="@style/Widget.Material3.CardView.Elevated"
+android:background="@drawable/rect_round"
+    android:clipToPadding="false"
+    android:dividerHeight="0.0px"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    app:rippleColor="@color/colorAccent"
+    app:strokeColor="@color/color_primary_variant"
+    app:strokeWidth="1dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+          <com.google.android.material.button.MaterialButton
+                android:id="@id/newcollection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              style="@style/Widget.Material3.Button.OutlinedButton"
+              android:layout_weight="1"
+                android:paddingTop="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:text="@string/ccreate_new"
+              android:textAlignment="center"
+
+                android:textSize="17.0sp" />
+        <View
+            style="@style/VerticalLine"
+
+            android:backgroundTint="@color/red"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:background="@color/streat_line"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight=".05" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:textAlignment="center"
+            android:id="@id/addtocollection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:paddingTop="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:text="@string/addtocollection"
+            android:textSize="17.0sp" />
+
+
+
+
+
+
+
+
+
+
+
+        <View
+            style="@style/VerticalLine"
+            android:backgroundTint="@color/red"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:background="@color/streat_line"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight=".05" />
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

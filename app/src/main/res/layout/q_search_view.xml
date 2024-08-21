@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/search_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?colorBackgroundFloating"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@id/llSearchBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/space_3"
+        android:paddingTop="@dimen/space_3"
+        android:paddingRight="@dimen/space_3"
+        android:paddingBottom="@dimen/space_3">
+
+        <ImageButton
+            android:id="@id/ibActionBack"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="?android:selectableItemBackground"
+            android:paddingRight="@dimen/space_3"
+            app:srcCompat="@drawable/baseline_arrow_back_36"
+            app:tint="@android:color/darker_gray" />
+        <View
+            android:id="@+id/close_search_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/baseline_close_24" />
+        <EditText
+          android:visibility="invisible"
+            android:id="@id/etSearch"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:hint="@string/searchTitle"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/space_3"
+            android:paddingRight="@dimen/space_3"
+            android:textCursorDrawable="@null"
+            android:autofillHints="" />
+
+
+        <ImageButton
+            android:id="@id/ibActionVoice"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="?android:selectableItemBackground"
+            android:paddingLeft="@dimen/space_3"
+            app:srcCompat="@drawable/ic_action_voice_search"
+            app:tint="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@id/ibActionClear"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="?android:selectableItemBackground"
+            android:paddingLeft="@dimen/space_3"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_close_foreground"
+            app:tint="@android:color/darker_gray" />
+
+        <ImageButton
+            android:id="@id/ibApply"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="?android:selectableItemBackground"
+            android:paddingLeft="@dimen/space_3"
+            app:srcCompat="@drawable/ic_baseline_search_36"
+            app:tint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:visibility="invisible"
+        android:id="@id/btnSelectBookText"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_3"
+        android:layout_marginRight="@dimen/space_3"
+        android:gravity="center"
+        android:paddingTop="@dimen/space_2"
+        android:paddingBottom="@dimen/space_2"
+        android:text="@string/search_in_all_collections" />
+
+    <CheckBox
+        android:visibility="invisible"
+        android:id="@id/cbPartialMatch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/space_3"
+        android:layout_marginRight="@dimen/space_3"
+        android:text="@string/exact_word_match" />
+
+    <TextView
+        android:id="@id/tvHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/space_3"
+        android:paddingTop="@dimen/space_2"
+        android:paddingRight="@dimen/space_3"
+        android:paddingBottom="@dimen/space_2"
+        android:text="@string/searchhelptext" />
+
+    <ListView
+        android:id="@id/lvSuggestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0.0dip" />
+</LinearLayout>

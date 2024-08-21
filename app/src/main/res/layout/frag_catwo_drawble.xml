@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:cardBackgroundColor="@android:color/transparent"
+    android:background="?android:colorBackground"
+ >
+
+    <RelativeLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_rounded"
+            app:srcCompat="@drawable/ic_social_manners"
+            android:layout_centerInParent="true"
+         android:padding="30dp"
+
+            android:elevation="20dp"
+
+             />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_marginTop="40dp"
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imgview"
+            android:fontFamily="@font/work_sans_bold"
+            android:text="@string/_text_translation"
+            android:paddingTop="@dimen/gridrow_padding"
+            android:textSize="@dimen/gridrow_cattxt_textsize" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recview"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:gravity="center"
+
+        android:layoutAnimation="@anim/layout_flyincenter"
+        android:listSelector="?attr/selectableItemBackground"
+
+        android:scrollingCache="false"
+        android:stretchMode="columnWidth"
+        />
+</FrameLayout>

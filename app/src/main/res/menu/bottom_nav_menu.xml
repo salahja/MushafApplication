@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/surahnav"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/surah"
+        android:contentDescription="@string/surah"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/conjugationnav"
+        android:icon="@drawable/ic_baseline_construction_24"
+        android:contentDescription="@string/conjugatorS"
+        android:title="@string/conjugatorS"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/mushafview"
+        android:contentDescription="@string/search"
+        android:icon="@drawable/baseline_audiotrack_24"
+        android:title="@string/Audio"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:id="@+id/names"
+        android:icon="@drawable/allah4"
+        android:orderInCategory="100"
+        android:title="Allah(SWT)Names" />
+
+
+    <item
+        android:id="@+id/dua"
+        android:icon="@drawable/dua"
+        android:orderInCategory="100"
+        android:title="Dua" />
+
+
+</menu>

@@ -1,0 +1,24 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:icon="@drawable/ic_baseline_web_24"
+        app:key="google_key"
+        app:summary="@string/google_summary"
+        app:title="@string/google_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/google_link" />
+    </Preference>
+
+    <Preference
+        app:icon="@drawable/ic_baseline_web_24"
+        app:key="ddg_key"
+        app:summary="@string/ddg_summary"
+        app:title="@string/ddg_title">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/ddg_link" />
+    </Preference>
+
+</PreferenceScreen>

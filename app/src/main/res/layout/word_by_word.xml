@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chips_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/textViewMargin"
+    android:layout_marginRight="@dimen/textViewMargin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/textViewMargin">
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/word_arabic_chipview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:lineSpacing="-4dp"
+        android:lineSpacingExtra="-4dp"
+        android:checkable="true"
+        android:elevation="10dp"
+         android:shadowRadius="5"
+        android:shadowColor="@color/redhot"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+
+        android:visibility="gone" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/word_arabic_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        app:lineSpacing="-4dp"
+        android:lineSpacingExtra="-4dp"
+
+        android:elevation="10dp"
+
+
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+
+        android:visibility="visible" />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:id="@+id/root_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/wordno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkable="true"
+        android:visibility="gone" />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:id="@+id/word_trans_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

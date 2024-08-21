@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.justJava.ZoomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:singleLine="true">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:elevation="0.0dip">
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/babno"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center|end"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+                        android:layout_weight="1.0"
+
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/weknessname"
+                        style="@style/Widget.Material3.Button.ElevatedButton"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:gravity="center|end"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+
+
+                        android:textSize="20sp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/rootword"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center|end"
+                        android:paddingStart="5.0dip"
+                        android:layout_weight="1.0"
+                        android:paddingEnd="5.0dip"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="50dp"
+                    style="@android:style/TextAppearance.DeviceDefault.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <!--  app:chipSurfaceColor="@color/color_background_overlay" Button widget style attribute -->
+
+                    <!--   Button widget style attribute -->
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/ismfail"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|end"
+                        android:onClick="onClick"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+
+                        android:textSize="20sp"
+
+                        app:chipIconTint="@color/colorAccent" />
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/masdar"
+                        style="@android:style/TextAppearance.DeviceDefault.Small"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"
+                        android:gravity="center|end"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="5.0dip"
+
+                        android:text="@string/masdar"
+
+                        android:textSize="20sp"
+                        android:tooltipText="@string/checkdictionary" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/mumaroof"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|end"
+                        android:onClick="onClick"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+
+                        android:textSize="20sp"
+                        app:chipCornerRadius="12dp" />
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/mamaroof"
+
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:gravity="center|end"
+                        android:onClick="onClick"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:shadowColor="@color/colorAccent"
+                        android:shadowDx="8"
+                        android:shadowDy="8"
+                        android:shadowRadius="4"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:tooltipText="Click for Verb Conjugation"
+                        app:rippleColor="@color/colorAccent"
+
+                        app:strokeWidth="1dp" />
+
+
+                </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <!--  app:chipSurfaceColor="@color/color_background_overlay" Button widget style attribute -->
+
+            <!--   Button widget style attribute -->
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/ismmafool"
+                android:contentDescription="@string/ismmafool"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|end"
+                android:onClick="onClick"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:textAlignment="center"
+
+                android:textSize="20sp"
+
+                app:chipIconTint="@color/colorAccent" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/masdar2"
+                style="@android:style/TextAppearance.DeviceDefault.Small"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center|end"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="5.0dip"
+
+                android:text="@string/masdar"
+
+                android:textSize="20sp"
+                android:tooltipText="@string/checkdictionary" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/mumajhool"
+
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|end"
+                android:onClick="onClick"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:textAlignment="center"
+
+                android:textSize="20sp"
+                app:chipCornerRadius="12dp" />
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/mamajhool"
+
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|end"
+                android:onClick="onClick"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:shadowColor="@color/colorAccent"
+                android:shadowDx="8"
+                android:shadowDy="8"
+                android:shadowRadius="4"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:tooltipText="Click for Verb Conjugation"
+                app:rippleColor="@color/colorAccent"
+
+                app:strokeWidth="1dp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="150dp"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@id/nahiamr"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:contentDescription="@string/amrnahi"
+
+                        android:gravity="center|end"
+                        android:onClick="onClick"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+
+                        android:textSize="20sp" />
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:contentDescription="@string/amr"
+                        android:id="@id/amr"
+                        android:layout_width="0.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:layout_toEndOf="@+id/nahiamr"
+                        android:onClick="onClick"
+                        android:paddingStart="5.0dip"
+                        android:paddingEnd="3.0dip"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/ismzarfheader"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_toEndOf="@+id/ismzarfheader"
+            android:gravity="center|end"
+            android:paddingStart="5.0dip"
+
+
+            android:paddingEnd="3.0dip"
+
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_toStartOf="@+id/ismalaheader"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+
+            android:background="#ff00ff"/>
+
+
+        <com.google.android.material.textview.MaterialTextView
+
+            android:id="@id/ismalaheader"
+            android:layout_alignParentStart="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+
+            android:paddingStart="5.0dip"
+            android:paddingEnd="3.0dip"
+
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="240dp"
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/ismaalatable"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+
+            android:layout_toEndOf="@+id/zarftable"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:paddingStart="5.0dip"
+            android:paddingEnd="3.0dip"
+            android:textAlignment="center"
+
+            android:textSize="20sp" />
+        <View
+            android:layout_toEndOf="@+id/zarftable"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+
+            android:background="#ff00ff"/>
+
+        <com.google.android.material.textview.MaterialTextView
+
+            android:id="@id/zarftable"
+            android:layout_alignParentStart="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:paddingStart="50dp"
+            android:paddingEnd="3.0dip"
+            android:textAlignment="center"
+
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="340dp"
+            style="@android:style/TextAppearance.DeviceDefault.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/form"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+
+
+                android:gravity="center_horizontal"
+
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:textAlignment="center"
+
+                android:textSize="20sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+
+            <com.google.android.material.textview.MaterialTextView
+
+                android:id="@id/wazan"
+
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center|end"
+                android:paddingStart="5.0dip"
+                android:paddingEnd="3.0dip"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</com.example.justJava.ZoomLayout>

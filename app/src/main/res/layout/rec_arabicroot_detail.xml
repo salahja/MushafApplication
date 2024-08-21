@@ -1,0 +1,25 @@
+<!-- Adding the same root's ID for view binding as other layout configurations -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/arabicroot_detail_container"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/recarabicroot_detail"
+        android:layout_marginStart="5dp"
+
+        style="@style/TextAppearance.Material3.BodyMedium"
+        android:layout_width="match_parent"
+        android:text="my name is sfsfsff"
+        android:textDirection="ltr"
+
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:textIsSelectable="true"
+        tools:context="com.example.roots.arabicrootDetailFragment" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

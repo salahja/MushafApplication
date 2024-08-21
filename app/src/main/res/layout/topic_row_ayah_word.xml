@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:colorBackground"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@android:color/transparent">
+
+    <include layout="@layout/quran_imageview_row"
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        android:layout_height="match_parent"/>
+
+    <com.example.utility.FlowLayout
+        android:id="@+id/flow_word_by_word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:maxLines="1"
+        android:visibility="visible" />
+
+
+
+    <TextView
+        android:id="@+id/arabic_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arabic"
+        android:layout_gravity="end"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/activatedBackgroundIndicator"
+        android:focusable="false"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/quran_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/arabic_font_style"
+        android:lineSpacingExtra="@dimen/lineSpacingExtra"
+        android:padding="@dimen/textViewPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="visible" />
+
+    <include
+        layout="@layout/erabcollapsabletwo"
+        android:visibility="gone" />
+
+
+    <include
+        layout="@layout/quran_tranlation_rows"
+        android:visibility="visible" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@color/redhot" />
+</LinearLayout>

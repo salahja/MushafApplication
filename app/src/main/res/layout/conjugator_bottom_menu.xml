@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:layout_centerHorizontal="true"
+
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="10dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <Button
+        android:id="@+id/conjugationnav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="680dp"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="none"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/mujarradlist"
+
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:chipCornerRadius="15dp"
+        app:chipIcon="@drawable/ic_action_setting" />
+
+    <Button
+        android:id="@+id/mazeedlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="680dp"
+        android:layout_toEndOf="@+id/conjugationnav"
+        android:autoSizeMaxTextSize="30sp"
+
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="none"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/mazeed_list"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:chipCornerRadius="15dp"
+        app:chipIcon="@drawable/ic_tab_search" />
+
+    <Button
+        android:id="@+id/conjugatorsetting"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="680dp"
+        android:layout_toEndOf="@+id/mazeedlist"
+        android:layout_weight="0"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="none"
+        android:elevation="10dp"
+
+        android:foreground="@drawable/bottom_app_bar_title_foreground"
+        android:gravity="center_horizontal"
+        android:text="@string/settings_conjugator"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/conjugator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="680dp"
+        android:layout_toEndOf="@+id/conjugatorsetting"
+        android:autoSizeMaxTextSize="30sp"
+
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="none"
+        android:elevation="10dp"
+        android:foreground="@drawable/bottom_app_bar_title_foreground"
+        android:gravity="center_horizontal"
+        android:text="@string/conjugator"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/qurangrammar"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="680dp"
+        android:layout_toEndOf="@id/conjugator"
+
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+
+
+        android:autoSizeTextType="none"
+        android:checkable="true"
+        android:elevation="10dp"
+        android:foreground="@drawable/bottom_app_bar_title_foreground"
+        android:text="@string/quranactivity"
+
+
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

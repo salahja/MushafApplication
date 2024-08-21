@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/arabicroot_list_fragment">
+
+    <fragment
+        android:id="@+id/verbroot_list_fragment"
+        android:name="com.example.quranroots.VerbrootDetailFragment"
+        android:label="verbrootListFragment">
+        <argument
+            android:name="worddetail"
+            android:defaultValue=""
+            app:argType="string" />
+        <action
+            android:id="@+id/show_verbroot_detail"
+            app:destination="@id/verbroot_detail_fragment"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/verbroot_detail_fragment"
+        android:name="com.example.quranroots.VerbrootDetailFragment"
+        android:label="arabicroot_detail"
+        tools:layout="@layout/fragment_verbroot_detail">
+        <argument
+            android:name="item_id"
+            android:defaultValue=""
+            app:argType="string" />
+    </fragment>
+</navigation>

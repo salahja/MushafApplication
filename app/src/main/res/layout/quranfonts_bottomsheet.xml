@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text">
+
+
+        <RadioButton
+            android:id="@+id/rdqalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:text="Qalam" />
+
+
+        <TextView
+            android:id="@id/qalamtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header"
+            android:layout_toEndOf="@+id/qalam"
+            android:text="Qalam font"
+            android:textSize="30sp">
+
+        </TextView>
+
+        <RadioButton
+            android:id="@+id/rdmequran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@id/qalam"
+            android:text="me quran" />
+
+        <TextView
+            android:id="@id/mequrantext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/qalamtext"
+            android:layout_toEndOf="@+id/mequran"
+
+            android:text="Me quran font"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/rdquranic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mequran"
+            android:text="Quranic" />
+
+        <TextView
+            android:id="@id/quranictext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_below="@id/mequrantext"
+            android:layout_toEndOf="@+id/pdms"
+
+
+            android:textSize="30sp" />
+    </RadioGroup>
+
+
+</RelativeLayout>

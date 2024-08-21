@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:background="?android:windowBackground"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="true"
+  >
+
+    <com.google.android.material.appbar.AppBarLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarmain"
+            android:layout_width="match_parent"
+
+
+            app:elevation="4.0dip"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:animateLayoutChanges="false"
+
+
+
+
+            app:layout_scrollFlags="scroll|enterAlways|snap" />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dunamerec"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp" />
+    <!-- app:floating_title_color="@color/colorOnPrimary"    -->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

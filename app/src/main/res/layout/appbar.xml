@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr/actionBarSize"
+    app:elevation="2dp"
+
+     >
+<!--    <include layout="@layout/q_search_view" />-->
+    <com.google.android.material.appbar.MaterialToolbar
+        app:liftOnScroll="false"
+        app:titleCentered="true"
+
+
+        android:id="@+id/toolbarmain"
+        android:layout_width="match_parent"
+        style="@style/MySearchViewStyle"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:animateLayoutChanges="true"
+
+
+
+        app:elevation="14dp"
+
+        app:menu="@menu/menu_dua_group"
+        app:navigationIcon="@drawable/baseline_menu_24" />
+<!--
+    <com.example.mushafconsolidated.q_SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+</com.google.android.material.appbar.AppBarLayout>
+
+
+        

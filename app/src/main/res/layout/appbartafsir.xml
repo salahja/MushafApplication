@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    app:elevation="4.0dip"
+  >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarmain"
+        android:layout_width="match_parent"
+
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+
+
+
+        app:elevation="4.0dip"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+
+         />
+
+</com.google.android.material.appbar.AppBarLayout>
+
+
+        

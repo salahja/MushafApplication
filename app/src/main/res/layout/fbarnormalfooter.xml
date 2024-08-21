@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_gravity="bottom"
+    android:id="@+id/normalfooter"
+
+
+
+    android:orientation="horizontal">
+
+
+
+
+        <!--start play-->
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="?colorPrimary"
+                android:layout_weight="6"
+                android:id="@+id/play"
+
+                android:clickable="true"
+                android:src="@drawable/ic_play"
+                android:onClick="onMediaPlayerButtonClick"/>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                />
+
+            <Spinner
+                android:background="?colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:id="@+id/selectReader"
+                android:entries="@array/quran_readers_name"
+                 >
+            </Spinner>
+
+
+
+
+
+
+
+
+</LinearLayout>

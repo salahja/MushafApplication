@@ -1,0 +1,712 @@
+/*==============================================================================
+=> default definitions for all elements
+==============================================================================*/
+* {
+	background: transparent; /* per default the bg color of the parent element is taken */
+	padding: 0; /* no space between element content and element border */
+	border: none; /* per default no border around elements */
+	box-sizing: border-box; /* include padding and border in defined box size */
+	margin: 0; /* no space between element border and surrounding elements */
+	outline: none; /* no outline around an elements border */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none;
+	direction: ltr;
+}
+
+.pdflink{
+display:none;
+}
+@font-face {
+    font-family: 'scheherazade';
+    src: url('fonts/sil/ScheherazadeNew-Regular-v33.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'digitalkhatt';
+    src: url('fonts/digitalkhatt/digitalkhatt.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hafs';
+    src: url('fonts/hafs/kd-hafs.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*uthmanic_hafs_v20.woff2*/
+
+@font-face {
+    font-family: 'nabi';
+    src: url('fonts/web/Nabi.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-size: small;
+}
+
+.font-ar-scheherazade {
+    font-family: scheherazade;
+    text-align: right;
+    direction: rtl;
+    letter-spacing: normal;
+    font-feature-settings: "cv81" 1;
+    word-spacing: 5px;
+}
+.font-ar-digitalkhatt {
+    font-family: digitalkhatt;
+    text-align: right;
+    direction: rtl;
+    letter-spacing: normal;
+    word-spacing: 10px;
+}
+.font-ar-hafs {
+    font-family: hafs;
+    text-align: right;
+    direction: rtl;
+    letter-spacing: normal;
+    word-spacing: 5px;
+}
+
+
+.font-ar-nabi {
+    font-family: nabi;
+    text-align: right;
+    direction: rtl;
+    letter-spacing: normal;
+    word-spacing: 10px;
+}
+.ar {
+	direction: rtl;
+	font-weight: bold;
+	color: navy;
+ 	display: inline-block;
+ 	white-space: nowrap;
+ 	text-indent: 0;
+  font-family: scheherazade;
+}
+
+
+img {
+  width: 400px,
+  height: auto
+}
+
+
+
+.button {
+
+  border: none;
+
+
+    margin:0 auto;
+      display:block;
+}
+
+.button {border-radius: 20px;}
+.collapsible button button {
+  background-color: red;
+
+  cursor: pointer;
+
+
+
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible button button:hover {
+  background-color: #blue;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+   transition: max-height 0.2s ease-out;
+
+}
+/*==============================================================================
+=> viewport settings - for mobile devices
+==============================================================================*/
+@viewport { /* base definition for support of mobile devices */
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+@-ms-viewport { /* vieport rule for IE10 */
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+/*==============================================================================
+=> temporary hiding of sense-tags
+==============================================================================*/
+.signification,
+.dissociation,
+.sense {
+	display: none;
+}
+/*==============================================================================
+=> general definitions for areas of html document
+==============================================================================*/
+html {
+	z-index: -100;
+	font-size: 100%;
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	background: rgb(200,200,200);
+}
+body {
+	color: #111;
+	z-index: -50;
+	max-width: 1024px;
+	margin: auto;
+}
+aside,
+header,
+main,
+article,
+section,
+footer,
+hgroup,
+figure,
+figcaption {
+ 	display: block;
+}
+header {
+	z-index: 50;
+	height: 41px;
+	border-bottom: 1px solid rgb(200,200,200);
+	-ms-transform: translateX(40px);
+	-webkit-transform: translateX(40px);
+	transform: translateX(40px);
+}
+nav {
+	z-index: 100;
+	position: fixed;
+	top: 0px;
+	height: 100%;
+	width: 41px;
+	border-right: 1px solid rgb(200,200,200);
+}
+main {
+	z-index: 0;
+	padding: 10px;
+	position: relative;
+	left: 40px;
+}
+aside {
+	z-index: 100;
+	position: relative;
+	float: right;
+	width: 224px;
+}
+header,
+main {
+	max-width: 760px;
+	width: calc(100% - 224px - 40px);
+	border-right: 1px solid rgb(200,200,200);
+}
+/*==============================================================================
+=> formatting of standard html elements
+==============================================================================*/
+hr {
+	height: 1px;
+	border: 0;
+	margin: 0.75rem 0 0 0;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25));
+}
+h2.root,
+h1 {
+	text-align: center;
+	line-height: 3rem;
+	font-size: 2rem;
+	color: #333;
+}
+h2 {
+	padding: 0.5em 0 0 0;
+	line-height: 2rem;
+	font-size: 1.5rem;
+	color: #222;
+}
+h3.entry {
+	margin: 0 0 0.75rem 0;
+	line-height: 2.75rem;
+	font-size: 1.5rem;
+	text-align: center;
+
+	cursor: pointer;
+}
+h3 {
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+}
+h3.hide{
+display:none;
+}
+h4.root {
+
+	text-align: center;
+}
+.roots{
+display:none;
+}
+h4.entry {
+	margin: -0.5rem 0 0 0;
+	text-align: center;
+}
+p,
+table {
+	padding: 1.25em 0 0 0;
+	line-height: 1.25em;
+}
+.sense p {
+	padding: 0 0 0 0;
+}
+.signification,
+.dissociation {
+	padding: 0.25rem 0 0.25rem 0;
+	margin: 0.25rem 0 0.25rem 0;
+	line-height: 1.2rem;
+	font-size: 0.9rem;
+	color: maroon;
+	text-align: center;
+	direction: ltr;
+	background: rgb(230,230,230);
+}
+blockquote {
+	text-align: center;
+	line-height: 2rem;
+	font-size: 1.25rem;
+}
+ul,
+ol,
+li {
+	padding: 0.25rem 0 0 0;
+}
+.fa,
+.he,
+.ar {
+	direction: rtl;
+	font-weight: bold;
+	color: navy;
+ 	display: inline-block;
+ 	white-space: nowrap;
+ 	text-indent: 0;
+ 	font-family: "Times New Roman", Times, serif;
+}
+.long {
+ 	display: inline;
+    white-space: normal;
+}
+p,
+li {
+	direction: ltr;
+	text-align: justify;
+}
+td {
+	vertical-align: text-top;
+}
+td.link a {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+a {
+	color: #555;
+}
+/*==============================================================================
+=> definitions for display, links and animation (with cross-browser support)
+==============================================================================*/
+#QR_logo,
+#lane_logo,
+header,
+#roots > ul > li {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+#roots > ul,
+.pdflink > ul {
+	list-style-type: none;
+	display: -webkit-box;	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;	/* TWEENER - IE 10 */
+	display: -webkit-flex;	/* NEW - Chrome */
+	display: flex;		/* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+#roots > ul {
+	cursor: pointer;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: wrap-reverse;
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+}
+.pdflink > ul {
+	-webkit-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.roots > li:hover > ul,
+.visible {
+	display: block;
+}
+/*==============================================================================
+=> other color and background definitions
+==============================================================================*/
+header,
+nav,
+aside > h3,
+.footnote,
+nav ul > li {
+	background: rgb(220,220,220);
+}
+.roots > li:hover,
+.entries > li:hover{
+	background: rgb(230,230,230);
+}
+body ,
+header:hover,
+#QR_logo:hover,
+#lane_logo:hover,
+nav ul > li:hover {
+	background: rgb(240,240,240);
+}
+nav ul > li:hover > a,
+a:hover {
+	color: blue;
+}
+.auth {
+	color: grey;
+}
+.add .auth,
+.add {
+	color: brown;
+	direction: ltr;
+}
+.new,
+.new .ar .lang{
+	color: maroon;
+	direction: ltr;
+}
+.xref h3 {
+	background: rgb(208,208,240);
+}
+.entry a,
+.entry a .ar {
+	color: purple;
+}
+.arrow,
+.arrow .ar {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: green;
+}
+.orange {
+	color: orange;
+}
+.red {
+	color: red;
+}
+/*==============================================================================
+=> specific position, visibility, size and border definitions
+==============================================================================*/
+aside > h3 {
+	position: fixed;
+	top: 0px;
+	width: 224px;
+	line-height: 40px;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+#quick-nav {
+	position: fixed;
+	margin: 5px;
+	top: 40px;
+}
+#QR,
+#lane {
+	position: relative;
+	width: 40px;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+#QR {
+	height: 41px;
+}
+#lane {
+	height: 21px;
+	top: -1px;
+}
+#QR_logo,
+#lane_logo {
+	height: 100%;
+	width: 100%;
+}
+#QR_logo {
+	padding: 5px;
+}
+#lane_logo {
+	padding: 2px;
+}
+#roots {
+	position: relative;
+	top: -1px;
+	height: 100%;
+	width: 40px;
+	font-weight: bold;
+}
+#roots > ul {
+	width: 40px;
+}
+#roots > ul > li {
+	direction: rtl;
+	text-indent: 13px;
+	text-align: right;
+	line-height: 19px;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+.roots > li > ul,
+nav ul > li > ul {
+	display: none;
+}
+#roots > ul > li > ul {
+	direction: ltr;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	overflow: -moz-scrollbars-vertical;
+	width: 80px;
+	position: absolute;
+	top: -62px;
+	left: 41px;
+	box-shadow: 0 2px 8px rgba(0,0,0,.6);
+	background: rgb(220,220,220);
+}
+#roots  ul > li > ul > li {
+	direction: rtl;
+	background: rgb(220,220,220);
+	border-bottom: 1px dotted rgb(200,200,200);
+	text-indent: 5px;
+	height: 20px;
+	width: 100%;
+}
+header a,
+nav a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.roots {
+	list-style: none;
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	width: 100px;
+	margin-left: 1rem;
+}
+.roots li {
+	max-height: 1.8rem;
+}
+.roots a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.entries {
+	list-style: square;
+	position: relative;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+	width: 300px;
+	top: -2.25rem;
+	left: 100px;
+}
+.pdflink li {
+	position: relative;
+	width: 100px;
+	margin: 5px;
+}
+.pdflink li img {
+	width: 100%;
+}
+.pdflink li a {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+.pdflink li a span {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 20px;
+}
+.preface td {
+	border-bottom: 1px dotted rgb(200,200,200);
+}
+.prev,
+.next {
+
+	display:none;
+
+}
+.left,
+.prev {
+	float: left;
+	text-align: left;
+}
+.right,
+.next {
+	float: right;
+	text-align: right;
+}
+.prev img,
+.next img {
+	height: 100%;
+	width: 100%;
+}
+.prev a,
+.next a {
+	font-size: 1rem;
+	position: absolute;
+	width: 5rem;
+	height: 3rem;
+}
+.prev a {
+	left: 2.1rem;
+}
+.next a {
+	right: 2.1rem;
+}
+span.type {
+	margin-right: 1rem;
+}
+/*==============================================================================
+=> specific style definitions (classes)
+==============================================================================*/
+.ltr {
+	direction: ltr;
+	display: inline-block;
+}
+.arrow {
+	direction: ltr;
+	font-weight: bold;
+	display: inline-block;
+}
+td .ar {
+	display: inline-block;
+}
+.caps {
+	font-variant: small-caps;
+}
+sup, small, sub {
+	font-size: .83em;
+	line-height: .83em;
+}
+sup {
+	vertical-align: super;
+}
+small {
+	vertical-align: baseline;
+}
+sub {
+	vertical-align: sub;
+}
+.large {
+	font-size: 1.25em;
+	line-height: 1em;
+}
+ul.bullet {
+	margin-left: 2rem;
+	list-style-type: bullet;
+	list-style-position: outside;
+}
+ol.second {
+	margin-left: 4rem;
+}
+.footnote {
+	color: blue;
+}
+#footnotes {
+	counter-reset: li;
+}
+#footnotes li {
+	position: relative;
+	margin: 0 0 0 2rem;
+	list-style: none;
+}
+#footnotes li:before {
+	content: '[' counter(li) '] ';
+	counter-increment: li;
+	position: absolute;
+	left: -2rem;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 2rem;
+	margin-right: 10px;
+	padding-right: 0.5rem;
+	text-align: right;
+}
+#table_ref td:nth-of-type(1) {
+	width: 30px;
+}
+#T1 td:nth-of-type(1) {
+	text-align: right;
+	padding-right: 0.5rem;
+	width: 60px;
+}
+.center {
+	text-align: center;
+}
+.indent {
+	text-indent: 3rem;
+}
+/*==============================================================================
+=> responsive web-design definitions
+==============================================================================*/
+/* Small width screens */
+@media all and (max-width: 800px) {
+	header,
+	main {
+		width: calc(100% - 40px);
+		border-right: none;
+	}
+	aside {
+		display:none;
+	}
+}
+
+/* Small height screens */
+@media all and (max-height: 600px) {
+	#roots > ul > li {
+		width: 20px;
+		text-indent: 3px;
+		border-left: 1px dotted rgb(200,200,200);
+	}
+}
+/* Formatting for printing */
+@media print {
+	.pdflink {
+		display: none;
+	}
+}

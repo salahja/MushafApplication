@@ -1,0 +1,171 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <dimen name="gridrow_padding">2dp</dimen>
+
+
+    <!-- Dimens for staggered asymmetric grid layout cards-->
+    <dimen name="list_item_spacing_half">8dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textViewPadding">5dp</dimen>
+
+    <dimen name="textViewMargin">2dp</dimen>
+
+    <dimen name="lineSpacingExtra">2dp</dimen>
+    <dimen name="lineWidth">0.2dp</dimen>
+
+    <dimen name="space_3">16.0dip</dimen>
+    <dimen name="space_4">50.0dip</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="space_1">4.0dip</dimen>
+    <dimen name="space_2">8.0dip</dimen>
+    <dimen name="space_5">20.0dip</dimen>
+
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="container_margin">1dp</dimen>
+    <dimen name="container_horizontal_margin">30dp</dimen>
+    <dimen name="space_7">56dp</dimen>
+    <dimen name="drawer_footer_view_margin">12dp</dimen>
+    <dimen name="drawer_footer_view_width">45dp</dimen>
+    <dimen name="drawer_footer_view_height">45dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="gridrow_cattxt_textsize">26sp</dimen>
+
+
+    <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
+    <dimen name="design_bottom_sheet_peek_height_min">64dp</dimen>
+    <dimen name="design_fab_border_width">0.5dp</dimen>
+    <dimen name="design_fab_elevation">6dp</dimen>
+    <dimen name="design_fab_image_size">24dp</dimen>
+    <dimen name="design_fab_size_mini">40dp</dimen>
+    <dimen name="design_fab_size_normal">56dp</dimen>
+    <!--    <dimen name="design_fab_translation_z_hovered_focused">6dp</dimen>-->
+    <dimen name="design_fab_translation_z_pressed">6dp</dimen>
+    <dimen name="design_navigation_elevation">16dp</dimen>
+    <dimen name="design_navigation_icon_padding">32dp</dimen>
+    <dimen name="design_navigation_icon_size">24dp</dimen>
+    <!--    <dimen name="design_navigation_item_horizontal_padding">16dp</dimen>
+    <dimen name="design_navigation_item_icon_padding">32dp</dimen>
+    <dimen name="design_navigation_item_vertical_padding">4dp</dimen>-->
+    <dimen name="design_navigation_max_width">280dp</dimen>
+    <dimen name="design_navigation_padding_bottom">8dp</dimen>
+    <dimen name="design_navigation_separator_vertical_padding">8dp</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">128dp</dimen>
+    <!-- <dimen name="design_snackbar_action_text_color_alpha">1</dimen>-->
+    <dimen name="design_snackbar_background_corner_radius">0dp</dimen>
+    <dimen name="design_snackbar_elevation">6dp</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">0dp</dimen>
+    <dimen name="design_snackbar_max_width">-1px</dimen>
+    <dimen name="design_snackbar_min_width">-1px</dimen>
+    <dimen name="design_snackbar_padding_horizontal">12dp</dimen>
+    <dimen name="design_snackbar_padding_vertical">14dp</dimen>
+    <dimen name="design_snackbar_padding_vertical_2lines">16dp</dimen>
+    <dimen name="design_snackbar_text_size">14sp</dimen>
+    <dimen name="design_tab_max_width">264dp</dimen>
+    <dimen name="design_tab_scrollable_min_width">72dp</dimen>
+    <dimen name="design_tab_text_size">14sp</dimen>
+    <dimen name="design_tab_text_size_2line">12sp</dimen>
+    <dimen name="design_textinput_caption_translate_y">5dp</dimen>
+    <dimen name="disabled_alpha_material_dark">0.3</dimen>
+    <dimen name="disabled_alpha_material_light">0.26</dimen>
+    <dimen name="fastscroll_default_thickness">8dp</dimen>
+    <dimen name="fastscroll_margin">0dp</dimen>
+    <dimen name="fastscroll_minimum_range">50dp</dimen>
+
+
+    <dimen name="highlight_alpha_material_colored">0.26</dimen>
+    <dimen name="highlight_alpha_material_dark">0.2</dimen>
+    <dimen name="highlight_alpha_material_light">0.12</dimen>
+    <dimen name="hint_alpha_material_dark">0.5</dimen>
+    <dimen name="hint_alpha_material_light">0.38</dimen>
+    <dimen name="hint_pressed_alpha_material_dark">0.7</dimen>
+    <dimen name="hint_pressed_alpha_material_light">0.54</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+
+    <!--    <dimen name="preference_dropdown_padding_start">0dp</dimen>
+    <dimen name="preference_icon_minWidth">0dp</dimen>
+    <dimen name="preference_seekbar_padding_horizontal">0dp</dimen>
+    <dimen name="preference_seekbar_padding_vertical">15dp</dimen>
+    <dimen name="preference_seekbar_value_minWidth">36dp</dimen>
+    <dimen name="preferences_detail_width">300dp</dimen>
+    <dimen name="preferences_header_width">384dp</dimen>-->
+    <dimen name="radio_button_stroke_border">2dp</dimen>
+
+
+    <dimen name="tooltip_corner_radius">2dp</dimen>
+    <dimen name="tooltip_horizontal_padding">16dp</dimen>
+    <dimen name="tooltip_margin">8dp</dimen>
+    <dimen name="tooltip_precise_anchor_extra_offset">8dp</dimen>
+    <dimen name="tooltip_precise_anchor_threshold">96dp</dimen>
+    <dimen name="tooltip_vertical_padding">6.5dp</dimen>
+    <dimen name="tooltip_y_offset_non_touch">0dp</dimen>
+    <dimen name="tooltip_y_offset_touch">16dp</dimen>
+    <dimen name="text_size_30">30dp</dimen>
+    <dimen name="standard_55">-55dp</dimen>
+    <dimen name="standard_105">-115dp</dimen>
+    <dimen name="standard_155">-175dp</dimen>
+    <dimen name="standard_205">-240dp</dimen>
+    <dimen name="standard_255">-300dp</dimen>
+    <dimen name="standard_305">-365dp</dimen>
+
+    <dimen name="standard_405">-405dp</dimen>
+
+    <dimen name="audio_105">115dp</dimen>
+    <dimen name="audio_155">175dp</dimen>
+    <dimen name="audio_205">240dp</dimen>
+    <dimen name="audio_255">300dp</dimen>
+    <dimen name="audio_305">365dp</dimen>
+
+    mm mulsimmate
+
+
+    <dimen name="fab_margin">58dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!--old app data-->
+
+
+    <dimen name="fabsize">45sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+
+
+    <dimen name="wheel_item_width">160dp</dimen>
+    <dimen name="wheel_item_height">40dp</dimen>
+    <dimen name="wheel_divider_height">1dp</dimen>
+    <dimen name="wheel_text_size">20sp</dimen>
+
+
+    <dimen name="_9sdp">9.00dp</dimen>
+
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="hiad_14_dp">14sp</dimen>
+    <dimen name="full_version_title_size">18sp</dimen>
+    <dimen name="hiad_non_wifi_play_button_h">26dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+</resources>

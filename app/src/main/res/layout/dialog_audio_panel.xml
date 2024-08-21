@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+
+    android:orientation="vertical"
+    android:background="@color/red"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+
+        android:id="@+id/jumptoverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+
+
+        app:cardCornerRadius="30dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="20dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="false">
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_3"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/space_3">
+            <include layout="@layout/audiotoppanel">
+
+            </include>
+
+            <LinearLayout
+
+                android:id="@id/llStartRange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_1">
+
+                <com.google.android.material.textview.MaterialTextView
+
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="@string/start_range"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_first_page_black_24dp"
+                    app:drawableStartCompat="@drawable/ic_first_page_black_24dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@id/start_range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_arrow_drop_down"
+                    app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/llEndRange"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_1">
+
+                <com.google.android.material.textview.MaterialTextView
+
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="@string/end_range"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_last_page_black_24dp"
+                    app:drawableStartCompat="@drawable/ic_last_page_black_24dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@id/endrange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_arrow_drop_down"
+                    app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/llQari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="@string/qari"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_people_black_24dp"
+                    app:drawableStartCompat="@drawable/ic_people_black_24dp" />
+
+                <Spinner
+                    android:id="@id/selectReaders"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    app:drawableRightCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/llRepeatSelection"
+                 android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="@string/repeat_range"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/ic_loop_black_24dp"
+                    app:drawableStartCompat="@drawable/ic_loop_black_24dp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@id/tvRepeatSelection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_arrow_drop_down"
+                    app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/llRepeatVerse"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_3">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="@string/repeat_each_verse"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/reset_icon"
+                    app:drawableStartCompat="@drawable/reset_icon" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@id/tvRepeatVerse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_arrow_drop_down"
+                    app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/display"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_4">
+
+                <com.google.android.material.textview.MaterialTextView
+
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="@dimen/space_1"
+                    android:gravity="start|center"
+                    android:text="on for Single"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableLeftCompat="@drawable/baseline_audio_file_24"
+                    app:drawableStartCompat="@drawable/baseline_audio_file_24" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_marginBottom="20dp"
+                    android:id="@id/chooseDisplaytype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                    android:textStyle="bold"
+                    app:drawableEndCompat="@drawable/ic_arrow_drop_down"
+                    app:drawableRightCompat="@drawable/ic_arrow_drop_down" />
+            </LinearLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@id/tvAdvancedSetting"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:drawablePadding="@dimen/space_1"
+                android:gravity="start|center"
+                android:padding="@dimen/space_3"
+                android:text="@string/advanced_settings"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                android:textStyle="bold"
+                app:drawableEndCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+                app:drawableLeftCompat="@drawable/ic_settings"
+                app:drawableRightCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+                app:drawableStartCompat="@drawable/ic_settings" />
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

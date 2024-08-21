@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/category"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Category"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/alldua"
+        android:icon="@drawable/dua"
+
+        android:title="Dua Lists"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/bookmark"
+        android:contentDescription="@string/content_description_one"
+        android:icon="@drawable/baseline_bookmarks_red_900_36dp"
+        android:title="@string/bookmarks"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+
+        app:showAsAction="always|collapseActionView" />
+
+
+
+
+
+
+
+</menu>

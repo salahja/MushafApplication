@@ -1,0 +1,80 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/baseline_bookmarks_teal_700_36dp"
+        android:title="@string/bookmarks"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/ajroomiya_detail"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"
+        android:title="Grammar"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rootdetails"
+        android:icon="@drawable/baseline_list_24"
+        android:title="Root List"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/verbdetails"
+        android:icon="@drawable/baseline_list_24"
+        android:title="Verb Detail List"
+
+        app:showAsAction="always" />
+
+<!--    <item
+        android:id="@+id/search"
+        android:contentDescription="@string/content_description_one"
+        android:icon="@drawable/ic_baseline_search_36"
+        
+        android:title="Root Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />-->
+
+
+    <item
+        android:id="@+id/phrases"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/mufradat"
+
+        app:showAsAction="always" />
+<!--
+    <item
+        android:id="@+id/bottomcompose"
+        android:icon="@drawable/ic_action_play"
+        android:title="@string/bottomnav"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/surahcompose"
+        android:icon="@drawable/sura_1"
+        android:title="@string/SelectSurah"
+
+        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/searchtopic"
+        android:contentDescription="@string/content_description_one"
+        android:icon="@drawable/ic_open_book"
+        android:title="@string/searchtopic"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+<!--
+    <item
+        android:id="@+id/mudhaf"
+        android:contentDescription="@string/content_description_one"
+        android:icon="@drawable/ic_open_book"
+        android:title="@string/mudhaflisting"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />-->
+
+
+</menu>
